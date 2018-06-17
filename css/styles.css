@@ -44,19 +44,24 @@ nav {
 	height: 40px;
 }
 
-.logo-wrap {
+.logo-button {
 	width: 50px;
 	height: 40px;
 	margin-left: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.logo-link {
 	background-color: none;
 }
+/*
+.logo-button:hover {
+	background-color: #FF0090;
+}
 
+.logo-button:active {
+	background-color: #FF0090;
+}
+*/
 menu {
 	padding-right: 20px;
 }
@@ -68,6 +73,10 @@ menu {
     align-items: center;
 }
 
+.menu-button:link {
+		text-decoration: none;
+}
+
 .menu-button:hover {
 	background-color: #FF0090;
 }
@@ -77,15 +86,14 @@ menu {
 }
 
 .menu-text {
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 90%;
 	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: 500;
+	color: #FFFFFF;
 }
 
-.button-link {
-	text-decoration: none;
-}
+
 
 /* Header logo & short summary of my skills */
 
@@ -95,15 +103,16 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	color: #404040;
+	font-family: 'Work Sans', sans-serif;
+	color: #383838;
 	text-align: center;	
 	margin: 0px auto;
 }
 
 p {
-	font-family: 'Alegreya Sans', sans-serif;
-	color: #404040;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	color: #383838;
 }
 
 a:link {
@@ -127,18 +136,18 @@ img {
 }
 
 .my-name {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 700;
 	font-size: 210%;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin: 0px 15px 20px;
 	color: #404040;
 } 
 
 .header-intro {
 	font-weight: 400;
 	font-style: italic;
-	font-size: 130%;
+	font-size: 105%;
 	letter-spacing: 0.2px;
 	padding: 0px 7%;
 }
@@ -151,17 +160,17 @@ img {
 
 .row {
 	height: 600px;
-	background-color: #d0d0d0;
+	background-color: #E8E8E8;
 	display: flex;
     justify-content: center;
     align-items: center;
-	padding: 0px 12%;
 }
 
 .row-modal {
-	max-width: 450px;
+	max-width: 420px;
 	min-width: 250px;
-	height: 260px;
+	height: 230px;
+	margin: 0px 12%;
 	background-color: #404040;
 	opacity: 0.96;
 	display: flex;
@@ -170,50 +179,56 @@ img {
 }
 
 .row-content {
-	height: 210px;
+	height: 180px;
 	width: 85%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	padding-bottom: 1px;
 }
 
 .project-tag {
 	margin: 0;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 110%;
-	color: #B8B8B8;
+	font-size: 93%;
+	color: #BBB;
 }
 
 .project-name {
-	color: #ffffff;
+	font-size: 135%;
+	font-weight: 500;
+	color: #FFF;
 	text-transform: uppercase;
+	letter-spacing: 5%;
+}
+
+.project-brief {
+	color: #FFF;
+	font-weight: 200;
+	font-size: 92%;
+	letter-spacing: 0.1px;
 	margin: 0;
 }
 
-.project-intro {
-	color: #ffffff;
-	font-weight: 300;
-	margin: 0;
-}
-
-button {
-	width: 150px;
+.project-button {
+	width: 170px;
 	height: 40px;
-	color: #FFFFFF;
-	background: none;
-	border: medium solid #FFFFFF;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-	padding-top: 1px;
+	justify-content: center;
+	align-items: center;
+	border: thin solid #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 0px;
 }
 
-.button-text {
-	font-family: 'Alegreya Sans', sans-serif;
+.project-button-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 91%;
 	font-weight: 400;
-	text-decoration: none;
+	letter-spacing: 0.3;
+	color: #FFFFFF;
 }
 
 #meme {
@@ -229,20 +244,45 @@ button {
 	background-position: 50% 50%;
 }
 
-#jw-folio {
-	background-image: url(../images/jw-folio-hero-img.png);
-	background-size: cover;
-	background-position: 50% 50%;
+#folio {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #FFED48;
 }
+
+.folio-hero-row-1 {
+	align-self: flex-start;
+	margin: 25px 0px 0px 25px;
+}
+
+.folio-hero-text-pink {
+	color: #FF0090
+}
+
+.folio-hero-text {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-size: 42px;
+	color: #282828;
+	line-height: 102%;
+	text-align: left;
+}
+
+.folio-hero-row-3 {
+	align-self: flex-end;
+	margin: 3px 15px 10px 0px;
+}
+
+.octocat-wrap {
+	width: 290px;
+}
+
 
 /* About section with avatar & resume link */
 
-article {
-	max-width: 1240px;
-}
-
 .about {
-	padding: 50px 20px;
+	padding: 50px 25px;
 	display: flex;
 	flex-direction: column;
 	align-items: center
@@ -254,7 +294,6 @@ article {
 }
 
 .profile {
-	height: 220px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -265,30 +304,37 @@ article {
 
 .avatar {
 	width: 150px;
-	border: medium solid #a0a0a0;
+	border: thin solid #404040;
 	border-radius: 50%;
 	margin-bottom: 20px;
 }
 
-.resume-text {
-	font-weight: 500;
-}
-
-.resume-link {
+.resume-button {
+	width: 170px;
+	height: 40px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-top: 1px;
+/*	background-color: #FF0090;*/
+	border: solid #FF0090;
 	text-decoration: none;
 }
 
-.button-pink {	
+.resume-button-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	color: #FF0090;
-	border: medium solid #FF0090;
 }
 
 .bio {
-	font-family: 'Alegreya Sans', sans-serif;
+	max-width: 1200px;
+	font-family: 'Open Sans', sans-serif;
 	color: #404040;
-	font-size: 115%;
+	font-size: 101%;
 	letter-spacing: 0.2px;
 	font-weight: 400;
+	line-height: 120%;
 	-webkit-columns: 2 300px;
     -moz-columns: 2 300px;
     columns: 2 300px;
@@ -303,37 +349,38 @@ article {
 /* Contact section & contact form */
 
 .connect-block {
-	font-family: 'Alegreya Sans', sans-serif;
-	color: #404040;
-	font-weight: 500;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px 20px 50px;
 }
 
-.connect-heading {
-	width: 100%;
-}
-
 .connect-wrap {
-	max-width: 340px;
-	font-size: 107%;
-	font-weight: 400;
+	max-width: 360px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+.connect-heading {
+	width: 100%;
+	font-size: 150%;
+	font-weight: 600;
+}
+
 .connect-text {
-	font-size: 107%;
+	font-size: 97%;
+	font-weight: 400;
+	line-height: 115%;
 	width: 100%;
 	margin: 20px 25px;
 }
 
+/*
 .my-email {
 	text-decoration: underline;
 }
+*/
 
 /* REMOVE INPUT FORM
 .input-field {
@@ -361,9 +408,8 @@ article {
 /* Footer section includes a "back to top" page anchor, social media, and copyright info */
 
 footer {
-	font-family: 'Alegreya Sans', sans-serif;
-	color: #ffffff;
-	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
 }
 
 .back-top-bar {
@@ -371,25 +417,26 @@ footer {
 }
 
 .back-top-wrap {
-	width: 100px;
-	height: 56px;
+	width: 120px;
 	margin: 0 auto;
-	padding-top: 7px;
-	padding-bottom: 15px;
-	font-family: 'Alegreya Sans', sans-serif;
+	padding-top: 4px;
+	padding-bottom: 14px;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #404040;
-	font-weight: 500;
+	font-size: 92%;
+	font-weight: 600;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.back-top-link {
-	width: 100px;
+.back-top-button {	
+	width: 120px;
 	margin: 0 auto;
 	display: block;
+	text-decoration: none;
 }
 
 .back-top-text {
@@ -405,7 +452,7 @@ footer {
 /* Footer section with "back-to-top" link, social media, and copyright info */
 
 .footer-bar {
-	background-color: #303030;
+	background-color: #333333;
 	display: flex;
 	align-items: flex-end;
 	padding: 20px 0px;
@@ -424,26 +471,27 @@ footer {
 	display: inline-flex;
     align-items: center;
 }
-
+/*
 .social-text {
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	text-transform: uppercase;
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 91%;
-	letter-spacing: 0.1px;
+	letter-spacing: 0.3px;
 }
-
+*/
 .copyright {
 	width: 50%;
 	margin: 0;
 	padding-left: 20px;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
-	font-weight: 300;
-	font-size: 92%;
+	font-weight: 200;
+	font-size: 88%;
 	text-align: left;
 	letter-spacing: 0.3px;
+	line-height: 120%;
 }
 
 .social-button {
@@ -454,8 +502,26 @@ footer {
 /* Media queries for mobile devices */
 
 @media (max-width: 530px) {
+	.bio {
+		font-size: 85%;
+	}
+	
 	.connect-block {
 		padding: 10px 20px 40px;
+	}
+	
+	.connect-heading {
+	    width: 100%;
+	    font-size: 140%;
+	    font-weight: 600;
+}
+
+	.connect-text {
+		font-size: 85%;
+		font-weight: 400;
+		line-height: 115%;
+		width: 100%;
+		margin: 20px 25px;
 	}
 	
     .footer-bar {
@@ -479,12 +545,12 @@ footer {
     	width: 100%;
 		margin-bottom: 10px;
 		padding: 0;
-    	font-family: 'Alegreya Sans', sans-serif;
+    	font-family: 'Kanit', sans-serif;
     	color: #ffffff;
-    	font-weight: 300;
-    	font-size: 92%;
+    	font-weight: 200;
+    	font-size: 90%;
     	text-align: center;
-    	letter-spacing: 0.3px;
+    	letter-spacing: 0.2px;
 		order: 2;
     }
 	.social-button {
@@ -492,4 +558,6 @@ footer {
 		margin: 0px 11px 5px;
 	}
 }
+
+
 
