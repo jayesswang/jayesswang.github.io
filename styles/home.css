@@ -275,7 +275,8 @@ SECTION - MEDIA QUERIES FOR HOMEPAGE ELEMENTS
 MEDIA QUERIES - MOBILE DEVICES
 ************************************************************************************* */
 
-@media (max-width: 530px) {
+@media (max-width: 560px) {
+	
 	.header-logo {
 		margin: 0 auto 15px;
 		width: 120px;
