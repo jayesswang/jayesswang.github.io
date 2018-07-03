@@ -1,0 +1,96 @@
+/* CSS Document */
+
+/* ************************************************************************************
+SECTION - ABOUT
+************************************************************************************* */
+/* ************************************************************************************
+MY AVATAR & RESUME LINK
+************************************************************************************* */
+
+
+.about {
+	padding: 80px 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.about-heading {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.avatar {
+	width: 150px;
+	border: thin solid #404040;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.email-button {
+	width: 150px;
+	height: 36px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-top: 1px;
+	border: solid #FF0090;
+	text-decoration: none;
+}
+
+.email-button-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #FF0090;
+}
+
+.resume-button {
+	width: 150px;
+	height: 36px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 12px;
+	padding-top: 1px;
+	border: thin solid #505050;
+	text-decoration: none;
+}
+
+.resume-button-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #505050;
+}
+
+
+
+.bio {
+/*	max-width: 1200px;*/
+	max-width: 560px;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	font-size: 101%;
+	letter-spacing: 0.2px;
+	font-weight: 400;
+	line-height: 120%;
+/*	-webkit-columns: 2 300px;
+    -moz-columns: 2 300px;
+    columns: 2 300px;
+	-webkit-column-gap: 4em;
+	-moz-column-gap: 4em;
+	column-gap: 4em;
+	-webkit-column-rule: 1px solid #ddd;
+	-moz-column-rule: 1px solid #ddd;
+	column-rule: 1px solid #ddd;*/
+}
+

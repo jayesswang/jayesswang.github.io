@@ -15,13 +15,14 @@
 <a name="navbar"></a>
 <nav>
   <div class="nav-wrapper"> <a href="index.html" class="logo-button"><img src="images/logo-small.png" alt="navbar logo"> </a>
-    <menu> <a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span> </a> <a href="index.html#about-link" class="menu-button"> <span class="menu-text">ABOUT</span> </a> <a href="index.html#contact-anchor" class="menu-button"> <span class="menu-text">CONTACT</span> </a> </menu>
+    <menu> <a href="index.html" class="menu-button"> <span class="menu-text">PROJECTS</span> </a> <a href="about.html" class="menu-button"> <span class="menu-text">ABOUT</span> </a> <!--<a href="index.html#contact-anchor" class="menu-button"> <span class="menu-text">CONTACT</span> </a>--> </menu>
   </div>
 </nav>
 <section class="container shadow">
   <header>
     <div class="navbar-spacing"></div>
-    <img src="images/cs-meme/meme-header-img.png" class="meme-header" alt="header image of game cards"> </header>
+    <div class="meme-header"></div>
+  </header>
   <section class="article-wrap">
     <article class="case-study"><a name=""></a>
       <div class="title">
@@ -34,9 +35,9 @@
           <br>
           The interactive prototype we presented to our stakeholders gave them the ability to try out these features: 1) signup, 2) update their profile, 3) change the music setting, and 4) learn the game through a quick tutorial. </p>
       </div>
-      <div class="prototype"> <a href="#" class="button-link" target="_blank"> <span class="button-text">VIEW PROTOTYPE</span> </a> <img src="images/cs-meme/meme-logo-launch-screen.png" class="launch-screen" alt=""> </div>
+      <div class="view-prototype"> <a href="https://www.figma.com/proto/dipc3ctv6YzJXVP1idGQ3c82/meme-mobile--game-2?node-id=78%3A1460&scaling=min-zoom" class="button-link" target="_blank"> <span class="button-text">VIEW PROTOTYPE</span> </a> <img src="images/cs-meme/meme-logo-launch-screen.png" class="launch-screen" alt=""> </div>
       <div class="problem-solution">
-        <h2>PROBLEM &amp; SOLUTION</h2>
+        <h3>PROBLEM &amp; SOLUTION</h3>
         <p> The stakeholders presented us with this question: How would we transform WDYM tabletop game into a mobile game while preserving and incorporating its original game mechanics? It was important to the stakeholders that their users experienced familiarity and a seamless transition in going from one format to the other. <br>
           <br>
           Based on our design research and user tested results, we created a data-driven blueprint for building WDYM mobile game. In general, we were able to stay true to the original tabletop game and also introduced a few new features, such as a timer and a status update window, which allowed us to “translate” certain gameplay experiences into a better fit for the mobile game format. </p>
@@ -61,7 +62,7 @@
         <div class="one-third">
           <h3>DESIGN</h3>
           <ul>
-            <li>Info Architecture</li>
+            <li>Info Arch</li>
             <li>User Stories</li>
             <li>User Flows</li>
             <li>Sketches</li>
@@ -91,7 +92,7 @@
         <h2>RESEARCH</h2>
         <p> If you look into some of today’s most popular tabletop games — with classics, such as Monopoly and Clue, or modern favorites, such as Cards Against Humanity, Settlers of Catan, and Ticket to Ride — you would easily find a mobile version of these games. According to research firm, NewZoo, smartphone and tablet game revenues accounted for <a href="https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/" target="_blank">42% of the global games market in 2017</a> and projected trends show steady and continued growth over the next three years. Based on these figures, we have a great opportunity for reaching a wider audience, especially given today’s millennials and their close relationship with technology.</p>
         <h3>GLOBAL GAMES MARKET</h3>
-        <img src="images/cs-meme/global_games_market_graph.png" alt="chart of 2016-2020 global games market"> </div>
+        <a href="images/cs-meme/global_games_market_graph.png" target="_blank"><img src="images/cs-meme/global_games_market_graph.png" alt="chart of 2016-2020 global games market"></a> </div>
     </article>
     <div class="video-group">
       <div class="video one-half">
@@ -114,8 +115,8 @@
       <h2>SURVEY RESULTS</h2>
       <h1>HABITS OF MOBILE GAME USERS</h1>
       <div class="data-row-group">
-        <div class="data-row"> <span>240%</span>
-          <p>MORE top 100 ranked tabletop games on Android than iOS</p>
+        <div class="data-row"> <span class="percent">240%</span>
+          <p class="percent-detail">MORE top 100 ranked tabletop games on Android than iOS</p>
         </div>
         <div class="data-row"> <span>25%</span>
           <p>play mobile games everyday</p>
@@ -132,13 +133,13 @@
       </div>
     </div>
   </section>
-  <section class="footnote">
-    <p><a href="#">*click here for links to all user survey results</a></p>
+  <section class="data-footnote">
+    <p><a href="https://docs.google.com/document/d/1UdeCH1Q-9qE3qUQBafOzOiA-u0Z4qtY8an4RlKsdG9o/edit?usp=sharing" target="_blank">*click here for links to all user survey results</a></p>
   </section>
   <section class="article-wrap">
     <article class="case-study">
       <div class="analysis">
-        <h2>COMPETITIVE ANALYSIS</h2>
+        <h3>COMPETITIVE ANALYSIS</h3>
         <p> Based on the research data we collected, we mapped out some of the differences in user experience between tabletop and mobile games. We illustrated some of our key findings in the chart below.</p>
       </div>
     </article>
@@ -174,13 +175,13 @@
   <section class="article-wrap">
     <article class="case-study">
       <div class="personas">
-        <h2>PERSONAS</h2>
+        <h3>PERSONAS</h3>
         <p> Once we had compiled all the data we collected, we created three personas to represent the most common type of users we came across.</p>
       </div>
     </article>
     <div class="personas-group">
-      <div class="one-third person"> 
-		<img src="images/cs-meme/01-persona-jason.png" alt="young white male using a tablet at a cafe">
+      <div class="user-profile">
+        <div class="persona-img"><img src="images/cs-meme/01-persona-jason.png" alt="young white male using a tablet at a cafe"></div>
         <div class="persona-details">
           <h4>JASON LEVINE</h4>
           <p> <strong>AGE:</strong> 28 <br>
@@ -193,10 +194,11 @@
             Jason works at a major film studio in Atlanta and travels often to shoot on-location. He  loves books, video games, and photography in his spare time. He enjoys playing tabletop games with his fiancee, parents, and friends as a longtime tradition. He is always looking for new ways to stay connected with loved ones when he travels, and mobile games provide a great channel and outlet for relaxing and connecting. <br>
             <br>
             <strong>FRUSTRATIONS</strong> <br>
-			Some tabletop games can get boring / Board games don’t fit in his suitcase / Some mobile games can be difficult to navigate</p>
+            Some tabletop games can get boring / Board games don’t fit in his suitcase / Some mobile games can be difficult to navigate</p>
         </div>
       </div>
-      <div class="one-third person"> <img src="images/cs-meme/02-persona-cathy.png" alt="senior japanese woman making cake batter">
+      <div class="user-profile">
+        <div class="persona-img"><img src="images/cs-meme/02-persona-cathy.png" alt="senior japanese woman making cake batter"></div>
         <div class="persona-details">
           <h4>CATHY WATANABE</h4>
           <p><strong>AGE:</strong> 73 <br>
@@ -212,14 +214,15 @@
             Technology is confusing and changes quickly / Complicated and confusing steps to setup a game session</p>
         </div>
       </div>
-      <div class="one-third person"> <img src="images/cs-meme/03-persona-cory.png" alt="senior black male with white beard">
+      <div class="user-profile">
+        <div class="persona-img"><img src="images/cs-meme/03-persona-cory.png" alt="senior black male with white beard"></div>
         <div class="persona-details">
           <h4>CORY JACKSON</h4>
           <p><strong>AGE:</strong> 49 <br>
             <strong>OCCUPATION:</strong> Robotics Engineer<br>
             <strong>LOCATION:</strong> Austin, TX</p>
           <br>
-          <q>“Playing mobile games sounds like a great idea for our family vacation this summer, but I prefer games that encourage family interaction.”</q><br>
+          <q>Playing mobile games sounds like a great idea for our family road trip this summer, but I prefer games that encourage family interaction.</q><br>
           <br>
           <p><strong>ABOUT</strong><br>
             Cory loves computers and robots. He is often recruited by his family and friends to trouble-shoot their computer problems. With two kids in their early 20s and a third kid finishing college next year, Cory is planning an RV trip for the summer with his whole extended family. The kids suggest that they download some mobile games to pass the time on the road.<br>
@@ -238,53 +241,110 @@
         <br>
         <img src="images/cs-meme/meme-moodboard.png" alt=""><br>
         <br>
-        <p>For type, we chose Helvetica, which is used in the WDYM Caption Cards, and Impact, which is considered the defacto meme font. For the color palette, we sampled the colors from the WDYM logo, which allowed us to create a cohesive style between the tabletop and mobile versions of WDYM. We also created a pattern library of components that we used to build the mobile app, which allowed us to maintain consistency among all elements.</p>
-        <br>
-        <img src="images/cs-meme/meme-style-guide.png" alt=""> </div>
+        <p>For type, we chose Helvetica, which is used in the WDYM Caption Cards, and Impact, which is considered the defacto meme font. For the color palette, we sampled the colors from the WDYM logo, which allowed us to create a cohesive style between the tabletop and mobile versions of WDYM. We also created a <a href="https://www.figma.com/file/dipc3ctv6YzJXVP1idGQ3c82/meme-mobile-game-2018" target="_blank">pattern library of components</a> that we used to build the mobile app, which allowed us to maintain consistency among all elements.</p>
+        <div class="style-guide">
+          <div class="style-guide-wrap">
+            <h5>COLOR PALETTE</h5>
+            <div class="color-palette">
+              <div class="color-wrap">
+                <div class="color-square" id="teal"></div>
+                <p>#27C7CA</p>
+              </div>
+              <div class="color-wrap">
+                <div class="color-square" id="eggplant"></div>
+                <p>#A7459A</p>
+              </div>
+              <div class="color-wrap">
+                <div class="color-square" id="yellow"></div>
+                <p>#FFE231</p>
+              </div>
+              <div class="color-wrap">
+                <div class="color-square" id="navy"></div>
+                <p>#332F79</p>
+              </div>
+              <div class="color-wrap">
+                <div class="color-square" id="drk-gray"></div>
+                <p>#666666</p>
+              </div>
+              <div class="color-wrap">
+                <div class="color-square" id="lt-gray"></div>
+                <p>#DADADA</p>
+              </div>
+            </div>
+          </div>
+          <div class="style-guide-wrap-2">
+            <h5>TYPOGRAPHY</h5>
+            <div class="type-group">
+              <div class="impact"> 
+				<span>IMPACT 22pt.</span><br>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p><br>
+              </div>
+              <div class="helvetica"> 
+				<span>HELVETICA 18pt.</span><br>
+                <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ <br>
+                  abcdefghijklmnopqrstuvwxyz</p>
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </article>
   </section>
   <section class="article-wrap">
     <article class="case-study">
       <div class="info-arch">
-        <h2>INFORMATION ARCHITECTURE</h2>
-        <p>Using a process that was loosely inspired by the 6-8-5 sketching game, I was able to brainstorm some initial ideas, which helped me to map out and create user stories, user flows, and the script for the mobile game tutorial. With each iteration of sketches, the user experience and layout of features began to take more shape and form, as old questions were answered and new questions came up. For example, where should the card decks go? Where should the avatars be placed? How large or small should we make the profile image? How would player’s differentiate between the judge’s deck or the player’s deck of cards? How would players keep track of the score? How would we prompt the player when it’s his turn to be the judge? </p>
+        <h3>INFORMATION ARCHITECTURE</h3>
+        <p>Using a process that was loosely inspired by the <a href="http://gamestorming.com/6-8-5s/" target="_blank">6-8-5 sketching game</a>, I was able to <a href="https://jayesswang.files.wordpress.com/2018/05/meme-brainstorm-user-stories-20180418.pdf">brainstorm some initial ideas</a>, which helped me to map out and create <a href="https://docs.google.com/spreadsheets/d/1ZuKIvQFoIKjXd7-PZQzCncpRQuIykCZHn9wNsianbNA/edit?usp=sharing" target="_blank">user stories</a>, <a href="https://jayesswang.files.wordpress.com/2018/05/wdym-mobile-game-user-flow1.jpg">user flows</a>, and a <a href="https://jayesswang.files.wordpress.com/2018/05/meme-tutorial-script-20180420.pdf" target="_blank">script</a> for the mobile game tutorial. </p>
         <br>
       </div>
     </article>
-    <img src="images/cs-meme/meme-sketches.png" alt=""> </section>
-  <section class="article-wrap">
+    <div class="container">
+      <div id="meme-sketches"></div>
+    </div>
     <article class="case-study">
-      <div class="testing">
-        <h2>USABILITY TESTING</h2>
-        <p>We engaged in rapid prototyping and iterated constantly as we built the prototype from wireframes to mockups, testing each design frequently and breaking things as quickly and as often as we could. In total, we cycled through roughly four iterations of design and testing before arriving at our current prototype. <br>
+      <div class="info-arch2">
+        <p>With each <a href="https://jayesswang.files.wordpress.com/2018/05/meme-user-flows-sketches-20180419.pdf" target="_blank">iteration of sketches</a>, the user experience and layout of features began to take more shape and form, as old questions were answered and new questions came up. <br>
           <br>
-          Using Google Hangouts and screen sharing, I followed a usability test script and remotely observed three users in real-time as they completed their assigned tasks in using the prototype. Afterward, I compiled their comments and feedback into a Google Doc. </p>
+          For example, where should the card decks go? Where should the avatars be placed? How large or small should we make the profile image? How would player’s differentiate between the judge’s deck or the player’s deck of cards? How would players keep track of the score? How would we prompt the player when it’s his turn to be the judge? <br>
+          <br>
+          Once we had fleshed out our sketches, we based the wireframes on the ideas that aligned the most with our stakeholders' goals.</p>
       </div>
     </article>
   </section>
   <section class="dark-solid-wrap">
     <div class="wireframes-wrap">
       <h2>WIREFRAMES</h2>
-      <div class="wireframes">
-        <div class="one-third">
-          <h3>IMAGE 1</h3>
-        </div>
-        <div class="one-third">
-          <h3>IMAGE 2</h3>
-        </div>
-        <div class="one-third">
-          <h3>IMAGE 3</h3>
-        </div>
+      <div class="wireframes-group">
+        <div class="wireframe"><img src="images/cs-meme/wireframe-01-launch-screen.png" alt="wireframe of launch screen"></div>
+        <div class="wireframe"><img src="images/cs-meme/wireframe-02-change-avatar.png" alt="wireframe of profile page"></div>
+        <div class="wireframe"><img src="images/cs-meme/wireframe-03-settings.png" alt="wireframe of settings window"></div>
+        <div class="wireframe"><img src="images/cs-meme/wireframe-04-flip-cards.png" alt="wireframe of new cards"></div>
+        <div class="wireframe"><img src="images/cs-meme/wireframe-05-read-captions.png" alt="wireframe of player's hand of cards"></div>
+        <div class="wireframe"><img src="images/cs-meme/wireframe-06-select-caption.png" alt="wireframe for selecting a caption card"></div>
       </div>
     </div>
   </section>
   <section class="article-wrap">
     <article class="case-study">
+      <div class="testing">
+        <h2>USABILITY TESTING</h2>
+        <p>We engaged in <a href="https://www.figma.com/file/dipc3ctv6YzJXVP1idGQ3c82/%23cs-meme?node-id=259%3A3773" target="_blank">rapid prototyping and iterated constantly</a> as we built the prototype from wireframes to mockups, testing each design frequently and applying user feedback quickly. <br>
+          <br>
+          Using Google Hangouts and screen sharing, I followed a <a href="https://jayesswang.files.wordpress.com/2018/05/script-ux-usability-test.pdf" target="_blank">usability test script</a> and remotely observed three users in real-time as they navigated through the prototype and completed a series of assigned tasks. Afterward, I compiled their <a href="https://docs.google.com/document/d/1eXM0MqZnDdgo-JbvImlenclDIpIdO4AnQ2Y2DbCTpEU/edit?usp=sharing" target="_blank">comments and feedback</a> into a Google Doc. <br>
+          <br>
+          In total, we cycled through roughly four iterations of design and testing before arriving at our current prototype. </p>
+      </div>
+    </article>
+  </section>
+  <section class="article-wrap">
+    <article class="case-study">
       <div class="prototyping">
-        <h2>RAPID PROTOTYPING</h2>
+        <h3>RAPID PROTOTYPING</h3>
         <p>Here are some examples of how the mobile game features evolved through the design, testing, and iteration process: <br>
           <br>
-          <strong>BACKGROUND:</strong> We combined some ideas from our moodboard in various ways and sent them through a preference test. Based on users’ responses, we created our final version of the mobile game’s background. <br>
+          <strong>BACKGROUND:</strong> We combined some ideas from our moodboard in various ways and sent them through a preference test. Based on users’ responses, we created our final version of the mobile game’s background. [<a href="https://usabilityhub.com/tests/3e1e728dfd83/results/9851f3a5ddad" target="_blank">Background A/B Test</a>] <br>
           <br>
           <strong>BUTTONS:</strong> We originally designed a “drag + drop” method for users to draw new cards from the Photo Card or Caption Card deck. In the end, we decided to use buttons they could tap. <br>
           <br>
@@ -292,32 +352,33 @@
           <br>
           <strong>GAME STATUS:</strong> In any tabletop game, there’s always a person that keeps track of the game status, whose turn it is, and what actions need to happen next. We solved that problem by introducing a status window that easily allows us to update all the players. Initially, we added an input field of emojis to allow players to like or respond to a caption that they liked. However, during user testing, we discovered that all 100% of our users disliked this feature, citing that it was confusing or that they probably wouldn’t use it. Consequently, we removed the feature. <br>
           <br>
-          <strong>TUTORIAL:</strong> We tested the tutorial script and colored bubbles until we achieved a good balance of brevity and depth that would not bore current fans or confuse new fans. [ Preference Test #1 | Preference Test #2 ] <br>
+          <strong>TUTORIAL:</strong> We tested the tutorial script and colored bubbles until we achieved a good balance of brevity and depth that would not bore current fans or confuse new fans. [<a href="https://usabilityhub.com/tests/7d7cff2fb6ec/results/a40b4f71be31" target="_blank">Preference Test #1</a> | <a href="https://usabilityhub.com/tests/f40bc8b797f8/results/779c4f656391" target="_blank">Preference Test #2</a>] <br>
           <br>
-          <strong>TIMER:</strong> In Exploding Kittens mobile game, there was a gauge that moved based on a player’s likelihood of drawing the exploding kitten card (the one card players avoided at all cost). This feature inspired us to introduce a timer to WDYM mobile game. With a timer, the mobile game created a greater sense of urgency allowing players to experience the adreneline-inducing pace of the tabletop game. Without the timer, we noticed that the players and judge took much longer to read and submit their Caption Cards. Once we added a timer, our users commented that they felt less distracted and more engaged in playing WDYM mobile game. </p>
+          <strong>TIMER:</strong> In Exploding Kittens mobile game, there was a gauge that moved based on a player’s likelihood of drawing the exploding kitten card (the one card players avoided at all cost). This feature inspired us to introduce a timer to WDYM mobile game. With a timer, the mobile game created a greater sense of urgency allowing players to experience the adrenaline-inducing pace of the tabletop game. Without the timer, we noticed that the players and judge took much longer to read and submit their Caption Cards. Once we added a timer, our users commented that they felt less distracted and more engaged in playing WDYM mobile game. </p>
       </div>
+	<div class="view-prototype"> 
+	  <a href="https://www.figma.com/proto/dipc3ctv6YzJXVP1idGQ3c82/meme-mobile--game-2?node-id=78%3A1460&scaling=min-zoom" class="button-link" target="_blank"> <span class="button-text">VIEW PROTOTYPE</span> </a> <img src="images/cs-meme/meme-logo-launch-screen.png" alt=""> 
+	</div>
     </article>
   </section>
+
   <section class="dark-solid-wrap">
     <div class="mockups-wrap">
-      <h2>WIREFRAMES</h2>
-      <div class="mockups">
-        <div class="one-third">
-          <h3>IMAGE 1</h3>
-        </div>
-        <div class="one-third">
-          <h3>IMAGE 2</h3>
-        </div>
-        <div class="one-third">
-          <h3>IMAGE 3</h3>
-        </div>
+      <h2>MOCKUPS</h2>
+      <div class="mockups-group">
+        <div class="mockup"><img src="images/cs-meme/wireframe-01-launch-screen.png" alt="wireframe of launch screen"></div>
+        <div class="mockup"><img src="images/cs-meme/wireframe-02-change-avatar.png" alt="wireframe of profile page"></div>
+        <div class="mockup"><img src="images/cs-meme/wireframe-03-settings.png" alt="wireframe of settings window"></div>
+        <div class="mockup"><img src="images/cs-meme/" alt="wireframe of new cards"></div>
+        <div class="mockup"><img src="images/cs-meme/" alt="wireframe of player's hand of cards"></div>
+        <div class="mockup"><img src="images/cs-meme/" alt="wireframe for selecting a caption card"></div>
       </div>
     </div>
   </section>
   <section class="connect-block"><a name="contact-anchor"></a>
     <div class="connect-wrap">
       <h2 class="connect-heading">Wanna connect?</h2>
-      <p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/v7-ux-resume-pink-20180619.pdf">download my resume</a>. </p>
+      <p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/v7-ux-resume-pink-20180619.pdf" target="_blank">download my resume</a>. </p>
     </div>
   </section>
   <footer>

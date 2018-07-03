@@ -66,6 +66,7 @@ PROJECTS - TITLES & PROJECT DESCRIPTIONS
 	display: flex;
     justify-content: center;
     align-items: center;
+	position: relative;
 }
 
 .row-modal {
@@ -141,19 +142,20 @@ PROJECTS - TITLES & PROJECT DESCRIPTIONS
 }
 
 #boxly {
-	background-color: #606060;
-	background-image: url(../images/boxly-hero-img-v3.png);
+	background-image: url(../images/boxly-hero-img-v1.png);
 	background-size: cover;
 	background-position: 50% 50%;
-	position: relative;
+	position: relative;*/
+	background-color: #0592BE;
+
 }
 
-#logo-boxly {
-		width: 180px;
-		position: absolute;
-		right: 20px;
-		bottom: 20px;
-	}
+#boxly-logo {
+	width: 180px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
 
 #folio {
 	display: flex;
@@ -191,78 +193,6 @@ PROJECTS - TITLES & PROJECT DESCRIPTIONS
 
 
 
-
-/* ************************************************************************************
-SECTION - ABOUT
-************************************************************************************* */
-/* ************************************************************************************
-MY AVATAR & RESUME LINK
-************************************************************************************* */
-
-
-.about {
-	padding: 50px 25px;
-	display: flex;
-	flex-direction: column;
-	align-items: center
-}
-
-.about-heading {
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.profile {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	padding: 15px;
-	margin-bottom: 50px;
-}
-
-.avatar {
-	width: 150px;
-	border: thin solid #404040;
-	border-radius: 50%;
-	margin-bottom: 20px;
-}
-
-.resume-button {
-	width: 170px;
-	height: 40px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	padding-top: 1px;
-	border: solid #FF0090;
-	text-decoration: none;
-}
-
-.resume-button-text {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #FF0090;
-}
-
-.bio {
-	max-width: 1200px;
-	font-family: 'Open Sans', sans-serif;
-	color: #404040;
-	font-size: 101%;
-	letter-spacing: 0.2px;
-	font-weight: 400;
-	line-height: 120%;
-	-webkit-columns: 2 300px;
-    -moz-columns: 2 300px;
-    columns: 2 300px;
-	-webkit-column-gap: 4em;
-	-moz-column-gap: 4em;
-	column-gap: 4em;
-	-webkit-column-rule: 1px solid #ddd;
-	-moz-column-rule: 1px solid #ddd;
-	column-rule: 1px solid #ddd;
-}
 
 
 
