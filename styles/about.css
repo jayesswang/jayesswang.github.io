@@ -9,15 +9,23 @@ MY AVATAR & RESUME LINK
 
 
 .about {
-	padding: 80px 25px;
+	padding: 0px 0px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center
 }
 
-.about-heading {
+.about-heading h1 {
+	color: #FFF;
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+.about-heading {
+	background-color: #C9167B;
+	width: 100%;
+	padding: 40px 0px 30px;
+	margin-bottom: 40px;
 }
 
 .profile {
@@ -26,13 +34,13 @@ MY AVATAR & RESUME LINK
 	align-items: center;
 	justify-content: space-between;
 	padding: 15px;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 }
 
 .avatar {
 	width: 150px;
-	border: thin solid #404040;
-	border-radius: 50%;
+	/*border: thin solid #404040;
+	border-radius: 50%;*/
 	margin-bottom: 20px;
 }
 
@@ -43,14 +51,14 @@ MY AVATAR & RESUME LINK
     justify-content: center;
     align-items: center;
 	padding-top: 1px;
-	border: solid #FF0090;
+	border: solid #FFF;
 	text-decoration: none;
 }
 
 .email-button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	color: #FF0090;
+	color: #FFF;
 }
 
 .resume-button {
@@ -59,9 +67,9 @@ MY AVATAR & RESUME LINK
 	display: flex;
     justify-content: center;
     align-items: center;
-	margin-top: 12px;
+	margin-top: 15px;
 	padding-top: 1px;
-	border: thin solid #505050;
+	border: thin solid #FFF;
 	text-decoration: none;
 }
 
@@ -69,20 +77,20 @@ MY AVATAR & RESUME LINK
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	font-weight: 300;
-	color: #505050;
+	color: #FFF;
 }
 
 
 
 .bio {
-/*	max-width: 1200px;*/
-	max-width: 560px;
+	max-width: 600px;
 	font-family: 'Open Sans', sans-serif;
 	color: #404040;
 	font-size: 101%;
 	letter-spacing: 0.2px;
 	font-weight: 400;
 	line-height: 120%;
+	padding: 0px 10px;
 /*	-webkit-columns: 2 300px;
     -moz-columns: 2 300px;
     columns: 2 300px;
@@ -94,3 +102,35 @@ MY AVATAR & RESUME LINK
 	column-rule: 1px solid #ddd;*/
 }
 
+
+.tools-group {
+	background-color: #C9167B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.tools-wrap {
+	max-width: 560px;
+	width: 100%;
+	padding: 0px 15px;
+	margin-bottom:40px;
+}
+
+.tools-wrap h3 {
+	color: #FFF;
+	text-decoration: underline;
+	margin-bottom: 2px;
+}
+
+.tools-text {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	font-size: 102%;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+	text-align: center;
+}
