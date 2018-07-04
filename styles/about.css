@@ -22,7 +22,7 @@ MY AVATAR & RESUME LINK
 }
 
 .about-heading {
-	background-color: #C9167B;
+	background-color: #DC0E7D;
 	width: 100%;
 	padding: 40px 0px 30px;
 	margin-bottom: 40px;
@@ -57,7 +57,8 @@ MY AVATAR & RESUME LINK
 
 .email-button-text {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 700;
+	letter-spacing: 0.1px;
 	color: #FFF;
 }
 
@@ -69,14 +70,14 @@ MY AVATAR & RESUME LINK
     align-items: center;
 	margin-top: 15px;
 	padding-top: 1px;
-	border: thin solid #FFF;
+	border: solid #FFF;
 	text-decoration: none;
 }
 
 .resume-button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 700;
 	color: #FFF;
 }
 
@@ -86,10 +87,10 @@ MY AVATAR & RESUME LINK
 	max-width: 600px;
 	font-family: 'Open Sans', sans-serif;
 	color: #404040;
-	font-size: 101%;
-	letter-spacing: 0.2px;
+	font-size: 103%;
+	letter-spacing: 0.1px;
 	font-weight: 400;
-	line-height: 120%;
+	line-height: 140%;
 	padding: 0px 10px;
 /*	-webkit-columns: 2 300px;
     -moz-columns: 2 300px;
