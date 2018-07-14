@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tab {
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  background: #505050;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #505050;
+  font-weight: 600;
+  line-height: 2;
+  cursor: pointer;
+}
+.tab-content {
+  width: 100%;
+  background: #DFDFDF;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-content a {
+	font-family: "Work Sans", sans-serif;
+	font-weight: 500;
+	color: #383838;
+	text-decoration: none;
+  display: inline-block;
+  line-height: 2.4;
+}
+/* :checked */
+input:checked ~ .tab-content {
+  max-height: 10em;
+	padding-bottom: 5px;
+}
+
+
+
+
+

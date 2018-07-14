@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* ************************************************************************************
+**** !!! CSS DOCUMENT !!! **** 
+************************************************************************************* */
+/* ************************************************************************************
+SECTION - HEADER (JW-FOLIO)
+************************************************************************************* */
+.folio-header {
+	background-color: #FFED4B;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.folio-header-text-wrap {
+	align-self: flex-start;
+	margin: 20px 0px 0px 20px;
+}
+
+.folio-header-text {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+	font-size: 38px;
+	color: #282828;
+	line-height: 102%;
+	text-align: left;
+}
+
+.folio-header-text-pink {
+	color: #FF0090;
+}
+
+.folio-header-octocat {
+	align-self: flex-end;
+}
+
+.octocat-wrap {
+	width: 240px;
+	margin: 10px 15px 5px 0px;
+}
+
+@media (max-width: 460px) {
+	.folio-header-text {
+		font-size: 32px;
+	}
+	
+	.octocat-wrap {
+		width: 200px;
+		margin: 10px 15px 5px 0px;
+	}
+}
+
+
+
+/* ************************************************************************************
+SECTION - ARTICLE (JW-FOLIO)
+************************************************************************************* */
+.article-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.case-study {
+	max-width: 660px;
+	min-width: 250px;
+	margin: 0px 5%;
+}
+.text-block {
+	padding: 18px 0px;
+}
+.text-block h2 {
+	padding-bottom: 12px;
+}
+.text-block h3 {
+	padding-bottom: 8px;
+}
+.text-block .ol-wrapper {
+	width: 90%;
+	margin: auto;
+	line-height: 140%;
+}
+p {
+	line-height: 140%;
+}
+.article-quote {
+  max-width: 500px;
+  background: #F7F7F7;
+  border-left: 10px solid #FF0090;
+  margin: 10px auto 30px;
+  padding: 0.5em 15px;
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+}
+.article-quote span {
+	font-style: italic;	
+}
+/*.article-quote:before {
+  color: #BBB;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+
+/* ****************************************************************************
+CASE STUDY TITLE SETTINGS
+***************************************************************************** */
+.title {
+	padding: 50px 5px 30px;
+}
+.title h2 {
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+
+/* *********************************************************************************
+SECTION - INTRODUCTION
+********************************************************************************** */
+#analogy {
+  max-width: 390px;
+  background: #F7F7F7;
+  border-left: 10px solid #FF0090;
+  margin: 10px auto 30px;
+  padding: 0.5em 15px;
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+}
+/*#analogy:before {
+  color: #BBB;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+#analogy p {
+  display: inline;
+}
+
+
+/* *********************************************************************************
+SECTION - TECHNICAL INSIGHTS
+********************************************************************************** */
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 10px 15px;
+}
+.topics-list {
+	max-width: 500px;
+	margin: auto;
+}
+.bright-solid-wrap {
+	width: 100%;
+	background-color: #FFED4B;
+	background-position: 0% 0%;
+	display: flex;
+	justify-content: center;
+	padding: 30px 10px;
+}
+
+
+/* *********************************************************************************
+SECTION - CONCLUSION
+********************************************************************************** */
+.conclusion span {
+	font-style: italic;
+}
+
+
+/* *********************************************************************************
+SECTION - FAVORITE LINKS
+********************************************************************************** */
+#fav-links-group {
+	
+}
+#fav-links-group h3{
+	text-decoration: underline;
+}
+.fav-links-wrap {
+	padding: 10px 5px;
+	display: flex;
+	justify-content: space-around;
+}
+.fav-links {
+	width: 50%;
+}
+.fav-links ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.fav-links li {
+	list-style: none;
+}
