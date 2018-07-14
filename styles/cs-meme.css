@@ -1,20 +1,9 @@
 @charset "UTF-8";
-/* *******************************************
-General settings for MEME case study
-******************************************** */
-
-.article-wrap {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.case-study {
-	max-width: 660px;
-	min-width: 250px;
-	margin: 0px 5%;
-}
-
+/* *************************************************************************
+** !!! CSS DOCUMENT !!!													  ** 
+************************************************************************* */
+/* GENERAL SETTINGS for MEME CASE STUDY
+************************************************************************* */
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -37,177 +26,9 @@ img {
 }
 
 
-/* ************************************************************************
-Footer section with "back to top" button, social media, and copyright info 
-************************************************************************* */
-/*
-footer {
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
-}
-
-.back-top-bar {
-	background-color: #fff;
-}
-
-.back-top-wrap {
-	width: 120px;
-	margin: 0 auto;
-	padding-top: 4px;
-	padding-bottom: 14px;
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	color: #404040;
-	font-size: 92%;
-	font-weight: 600;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.back-top-button {	
-	width: 120px;
-	margin: 0 auto;
-	display: block;
-	text-decoration: none;
-}
-
-.back-top-text {
-	text-decoration: underline;	
-}
-
-.fas {
-	width: 100%;
-	font-size: 180%;
-	text-align: center;	
-}*/
-
-/* *************************************************************************
-Copyright info & social media links
-************************************************************************** */
-/*
-.footer-bar {
-	background-color: #333333;
-	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
-	font-weight: 200;
-	font-size: 95%;
-	display: flex;
-	align-items: flex-end;
-	padding: 20px 0px;
-}
-
-.copyright {
-	width: 50%;
-	margin: 0;
-	padding-left: 20px;
-	font-size: 85%;
-	line-height: 130%;
-	text-align: left;
-	letter-spacing: 0.4px;
-}
-
-.social-footer-wrap {
-	width: 50%;
-	padding-right: 9px;
-	margin: 0;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.social-link {
-	padding: 0px;
-	display: inline-flex;
-    align-items: center;
-	text-decoration: none;
-}
-
-.social-text {
-	font-family: 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: 200;
-	font-size: 87%;
-	letter-spacing: 0.2px;
-	padding: 0px 11px;
-	text-decoration: underline;
-}
-
-.social-button {
-	width: 35px;
-	margin: 0px 11px;
-}*/
-
-/* **************************************************************
-MEDIA QUERIES for FOOTER BAR on MOBILE DEVICES 
-*************************************************************** */
-/*
-@media (max-width: 530px) {
-
-    .footer-bar {
-    	background-color: #303030;
-    	display: flex;
-    	flex-direction: column;
-		align-items: center;
-    	padding: 20px 0px;
-    }
-	
-	.copyright {
-    	width: 100%;
-		margin-bottom: 10px;
-		padding: 0;
-    	font-family: 'Open Sans', sans-serif;
-    	color: #ffffff;
-    	font-weight: 200;
-    	font-size: 85%;
-    	text-align: center;
-    	letter-spacing: 0.2px;
-		order: 2;
-    }
-	
-    .social-footer-wrap {
-    	width: 100%;
-    	margin: 10px 0px 20px;
-		padding: 0;
-    	display: flex;
-    	justify-content: center;
-		order: 1;
-    }
-
-	.social-button {
-		width: 35px;
-		margin: 0px 11px 5px;
-		
-	}
-	
-	.social-link {
-		padding: 0px;
-		display: inline-flex;
-		align-items: center;
-		text-decoration: none;
-	}
-	
-	.social-text {
-		font-family: 'Open Sans', sans-serif;
-		text-transform: uppercase;
-		color: #ffffff;
-		font-weight: 200;
-		font-size: 87%;
-		letter-spacing: 0.2px;
-		padding: 0px 8px;
-		text-decoration: underline;
-	}
-}*/
-
-
-/* *************************************************************************
-************************************************************************** */
-
 /* *************************************************************************
 FORMAT CONTENT - SECTIONS & COLUMNS
 ************************************************************************** */
-
 .meme-header {
 	height: 320px;
 	background-image: url(../images/cs-meme/meme-header-img.png);
@@ -243,10 +64,10 @@ FORMAT CONTENT - SECTIONS & COLUMNS
 	margin: 0px;
 }
 
+
 /* ****************************************************************************
 CASE STUDY TITLE SETTINGS
 ***************************************************************************** */
-
 .title {
 	margin: 50px 5px 70px;
 }
@@ -266,35 +87,36 @@ CASE STUDY TITLE SETTINGS
 	font-weight: 600;
 }
 
+
 /* *********************************************************************************
 SECTION - ABOUT THIS PROJECT
 ********************************************************************************** */
-
 .intro {
 	margin-bottom: 35px;
 }
 
 .view-prototype {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .view-prototype img {
-	max-width: 500px;
-	min-width: 220px;
+	max-width: 750px;
+	min-width: 200px;
 	width: 100%;
-	margin: 22px 15px 0px 15px;
+	padding: 5px 10px;
 }
 
 .button-link {
 	width: 170px;
 	height: 40px;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 	padding-top: 1px;
+	margin-bottom: 8px;
 	border: solid #383838;
 	text-decoration: none;
 }
@@ -315,11 +137,9 @@ SECTION - ABOUT THIS PROJECT
 
 
 
-
 /* *****************************************************************************
 SECTION - MY DESIGN PROCESS
 ****************************************************************************** */
-
 .process-wrap {
 	width: 660px;
 	padding: 0px;
@@ -348,10 +168,14 @@ SECTION - MY DESIGN PROCESS
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
 	line-height: 140%;
 	letter-spacing: 0.2px;
+}
+
+.process-skills li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #FFF;
 }
 
 .role-n-tools {
@@ -374,13 +198,12 @@ SECTION - MY DESIGN PROCESS
 /* *********************************************************************************
 SECTION - RESEARCH & ANALYSIS
 ********************************************************************************** */
-
 .research {
 	margin: 70px 0px 0px;
 }
 
 .research h2 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .research p {
@@ -441,8 +264,6 @@ SECTION - RESEARCH & ANALYSIS
 /* ******************************************************************
 SECTION - USER SURVEY RESULTS
 ******************************************************************* */
-
-
 .survey-wrap {
 	width: 660px;
 	margin: 40px 0px;
@@ -535,7 +356,6 @@ SECTION - USER SURVEY RESULTS
 /* **********************************************************************
 SECTION - COMPETITIVE ANALYSIS (TABLETOP VS MOBILE) 
 *********************************************************************** */
-
 .analysis h3 {
 	margin-bottom: 20px;
 	text-decoration: underline;
@@ -612,7 +432,6 @@ SECTION - COMPETITIVE ANALYSIS (TABLETOP VS MOBILE)
 /* ************************************************************************
 SECTION - PERSONAS 
 ************************************************************************* */
-
 .personas {
 	margin-bottom: 30px;
 }
@@ -648,6 +467,7 @@ SECTION - PERSONAS
 	
 .persona-details {
 	max-width: 660px;
+	padding: 0px 20px;
 }
 
 @media (max-width: 879px) {
@@ -662,150 +482,17 @@ SECTION - PERSONAS
 	}
 }
 
-/*
-	.personas-group {
-		width: 90%;
-		margin-bottom: 70px;
-	}
-	
-	.persona-img {
-		max-width: 380px;
-		width: 100%;
-	}
-
-	.personas-group h4 {
-		margin: 10px 0px;
-		text-decoration: underline;
-	}
-
-}*/
 
 
 /* ************************************************************************
-SECTION - DESIGN 
+SECTION - INFORMATION ARCHITECTURE 
 ************************************************************************* */
-
-.persona-details {
-	padding: 0px 20px;
+.info-arch {
+	margin: 10px 0px 40px;;
 }
-
-.design {
-	margin-bottom: 30px;
-}
-
-
-.design h2 {
-	margin-bottom: 20px;
-}
-
-.design img {
-	max-width: 660px;
-	min-width: 260px;
-	width: 100%;
-	margin: 10px 0px;
-}
-
-.design h5 {
-	margin: 20px 0px 10px;
-}
-
-.style-guide-wrap {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin: 40px 0px;
-}
-
-.color-palette {
-	max-width: 330px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.color-wrap {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.color-wrap p {
-	margin-bottom: 5px;
-}
-
-.color-square {
-	width: 100px;
-	height: 100px;
-	margin: 0px 5px 5px;
-}
-
-#teal {
-	background-color: #27C7CA;
-}
-
-#eggplant {
-	background-color: #A7459A;
-}
-
-#yellow {
-	background-color: #FFE231;
-}
-
-#navy {
-	background-color: #332F79;
-}
-
-#drk-gray {
-	background-color: #666;
-}
-
-#lt-gray {
-	background-color: #DADADA;
-}
-
-.type-group {
-	text-align: center;
-	margin-top: 15px;
-}
-
-.type-group span {
-	display: inline-block;
-	margin-bottom: 8px;
-}
-
-.impact {
-	font-family: 'Impact', serif;
-	font-size: 22px;
-	letter-spacing: 0.3px;
-}
-
-.impact p {
-	font-family: 'Impact', serif;
-	font-size: 22px;
-	color: #FFF;
-	-webkit-text-stroke: 1.2px black;
-}
-
-.helvetica {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 18px;
-}
-
-.helvetica p {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 18px;
-}
-
-
 .info-arch h3 {
 	margin-bottom: 20px;
 }
-
-.info-arch2 {
-	margin-bottom: 60px;
-}
-
 #meme-sketches {
 	background-image: url(../images/cs-meme/meme-sketches.png);
 	background-size: cover;
@@ -817,11 +504,9 @@ SECTION - DESIGN
 }
 
 
-
 /* ************************************************************************
 SECTION - WIREFRAMES 
 ************************************************************************* */
-
 .wireframes-wrap {
 	width: 100%;
 	padding: 0px 0px 10px;
@@ -854,10 +539,119 @@ SECTION - WIREFRAMES
 	}
 }
 
+
+
+/* ************************************************************************
+SECTION - STYLE GUIDE, COLOR PALETTE, TYPOGRAPHY 
+************************************************************************* */
+.style {
+	margin-bottom: 30px;
+}
+.style h3 {
+	margin-bottom: 20px;
+}
+.style img {
+	max-width: 660px;
+	min-width: 200px;
+	width: 100%;
+	padding: 10px 0px;
+}
+.style h5 {
+	margin: 20px 0px 10px;
+}
+.style-guide-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px 10px;
+}
+
+.color-palette {
+	max-width: 330px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.color-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.color-wrap p {
+	margin-bottom: 5px;
+}
+.color-square {
+	width: 100px;
+	height: 100px;
+	margin: 0px 5px 5px;
+}
+#teal {
+	background-color: #27C7CA;
+}
+
+#eggplant {
+	background-color: #A7459A;
+}
+
+#yellow {
+	background-color: #FFE231;
+}
+
+#navy {
+	background-color: #332F79;
+}
+
+#drk-gray {
+	background-color: #666;
+}
+
+#lt-gray {
+	background-color: #DADADA;
+}
+
+.type-group {
+	width: 98%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.type-group span {
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.impact {
+	font-family: 'Impact', serif;
+	font-size: 22px;
+	letter-spacing: 0.3px;
+	padding-bottom: 10px;
+}
+
+.impact span {
+	font-family: 'Impact', serif;
+	font-size: 24px;
+	color: #FFF;
+	-webkit-text-stroke: 1.2px black;
+}
+
+.helvetica {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+}
+
+.helvetica p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+
 /* ************************************************************************
 SECTION - TESTING 
 ************************************************************************* */
-
 .testing {
 	margin-bottom: 40px;
 }
@@ -866,12 +660,14 @@ SECTION - TESTING
 	margin-bottom: 10px;
 }
 
+.game-evolution {
+	padding-bottom: 20px;
+}
 
 
 /* ************************************************************************
 SECTION - RAPID PROTOTYPING 
 ************************************************************************* */
-
 .prototyping {
 	margin-bottom: 50px;
 	display: flex;
@@ -887,7 +683,6 @@ SECTION - RAPID PROTOTYPING
 /* ************************************************************************
 SECTION - MOCKUPS 
 ************************************************************************* */
-
 .mockups-wrap {
 	width: 100%;
 	padding: 0px 0px 10px;
@@ -919,3 +714,4 @@ SECTION - MOCKUPS
 		margin: 8px;
 	}
 }
+

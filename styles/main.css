@@ -219,7 +219,7 @@ SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0px 20px 50px;
+	padding: 60px 20px 50px;
 }
 .connect-wrap {
 	max-width: 440px;
@@ -241,7 +241,7 @@ SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
 }
 @media (max-width: 660px) {
 	.connect-block {
-		padding: 10px 20px 40px;
+		padding: 60px 20px 40px;
 	}
 	.connect-heading {
 	    width: 100%;

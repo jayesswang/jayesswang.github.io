@@ -62,22 +62,18 @@ SECTION - ARTICLE (JW-FOLIO)
 }
 .case-study {
 	max-width: 660px;
-	min-width: 250px;
+	min-width: 240px;
 	margin: 0px 5%;
 }
 .text-block {
 	padding: 18px 0px;
+	margin: 0px 3%;
 }
 .text-block h2 {
 	padding-bottom: 12px;
 }
 .text-block h3 {
 	padding-bottom: 8px;
-}
-.text-block .ol-wrapper {
-	width: 90%;
-	margin: auto;
-	line-height: 140%;
 }
 p {
 	line-height: 140%;
@@ -88,19 +84,11 @@ p {
   border-left: 10px solid #FF0090;
   margin: 10px auto 30px;
   padding: 0.5em 15px;
-  /*quotes: "\201C""\201D""\2018""\2019";*/
 }
 .article-quote span {
 	font-style: italic;	
 }
-/*.article-quote:before {
-  color: #BBB;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}*/
+
 
 /* ****************************************************************************
 CASE STUDY TITLE SETTINGS
@@ -142,6 +130,7 @@ SECTION - INTRODUCTION
 SECTION - TECHNICAL INSIGHTS
 ********************************************************************************** */
 pre code {
+	font-size: 95%;
   background-color: #eee;
   border: 1px solid #999;
   display: block;
@@ -149,6 +138,8 @@ pre code {
 }
 .topics-list {
 	max-width: 500px;
+	min-width: 240px;
+	padding: 0px 8%;
 	margin: auto;
 }
 .bright-solid-wrap {
@@ -159,7 +150,28 @@ pre code {
 	justify-content: center;
 	padding: 30px 10px;
 }
-
+@media (max-width: 560px) {
+	pre code {
+		font-size: 90%;
+	}
+}
+@media (max-width: 460px) {
+	pre code {
+		font-size: 80%;
+	}
+}
+@media (max-width: 360px) {
+	pre code {
+		font-size: 68%;
+		padding: 10px;
+	}
+}
+@media (max-width: 260px) {
+	pre code {
+		font-size: 64%;
+		padding: 10px 5px;
+	}
+}
 
 /* *********************************************************************************
 SECTION - CONCLUSION
@@ -179,7 +191,7 @@ SECTION - FAVORITE LINKS
 	text-decoration: underline;
 }
 .fav-links-wrap {
-	padding: 10px 5px;
+	padding: 5px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -194,3 +206,21 @@ SECTION - FAVORITE LINKS
 .fav-links li {
 	list-style: none;
 }
+@media (max-width: 560px) {
+	.fav-links-wrap {
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.fav-links {
+		width: 100%;
+		padding: 10px 0px;
+	}
+}
+@media (max-width: 360px) {
+	.fav-links a {
+		font-size: 0.95em;
+	}
+}
+

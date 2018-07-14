@@ -9,17 +9,23 @@
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
 <link href="styles/main.css" rel="stylesheet" type="text/css">
 <link href="styles/about.css" rel="stylesheet" type="text/css">
+<link href="styles/accordion.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <nav>
-  <div class="nav-wrapper"> <a href="index.html" class="logo-button"><img src="images/logo-small.png" alt="navbar logo"> </a>
-    <menu> <a href="index.html" class="menu-button"> <span class="menu-text">PROJECTS</span> </a> <a href="about.html" class="menu-button"> <span class="menu-text">ABOUT</span> </a> <!--<a href="about.html#contact-anchor" class="menu-button"> <span class="menu-text">CONTACT</span> </a>--> </menu>
+  <div class="nav-wrapper"> 
+		<a href="index.html" class="logo-button"><img src="images/logo-small.png" alt="navbar logo"></a>
+    <menu>
+			<a href="index.html" class="menu-button"><span class="menu-text">HOME</span></a>
+			<a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span></a>
+			<a href="about.html" class="menu-button"><span class="menu-text">ABOUT</span></a>
+		</menu>
   </div>
 </nav>
 <section class="container shadow"><a name="navbar"></a>
   <header>
-    <section class="navbar-spacing"></section>
+    <section class="spacing-div-h40px"></section>
   </header>
   <section class="about"><a name="about-link"></a>
 	<div class="about-heading">
@@ -63,13 +69,23 @@
       <p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/v7-ux-resume-pink-20180703.pdf" target="_blank">download my resume</a>. </p>
     </div>
   </section>
-<footer>
-  <div class="footer-bar">
-    <p class="copyright">Copyright ©2018 J.S. Wang <br>
-      Designed and developed by J.S. Wang</p>
-    <div class="social-footer-wrap"> <a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> <a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> <a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a></div>
-  </div>
-</footer>
+	<section class="tab">
+	  <input id="tab-one" type="checkbox" name="tabs">
+	  <label for="tab-one">SEE PROJECTS</label>
+	  <div class="down-triangle"></div>	  	  
+	  <div class="tab-content">
+			<a href="cs-meme.html">WHAT DO YOU MEME?</a>
+			<a href="cs-folio.html">JW PORTFOLIO</a>
+			<a href="cs-boxly.html">BOXLY</a>
+	  </div>
+	</section>
+	<footer>
+		<div class="footer-bar">
+			<p class="copyright">Copyright ©2018 J.S. Wang <br>
+				Designed and developed by J.S. Wang</p>
+			<div class="social-footer-wrap"> <a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> <a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> <a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a></div>
+		</div>
+	</footer>
 </section>
 </body>
 </html>
