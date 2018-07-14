@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ************************************************************************************
 **** !!! CSS DOCUMENT !!! **** 
 ************************************************************************************* */
@@ -25,25 +26,47 @@ body {
 }
 
 .container.shadow {
-	-moz-box-shadow: 0px 0px 16px rgba(16,16,16,0.17);
-	-webkit-box-shadow: 0px 0px 16px rgba(16,16,16,0.17);
-	box-shadow: 0px 0px 16px rgba(16,16,16,0.17);
+	-moz-box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
+	-webkit-box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
+	box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
 }
 
-.navbar-spacing {
+.spacing-div-h40px {
 	height: 40px;
 }
 
-.content-goes-here {
-	height: 1200px;
-	background-color: #FFF;
-	font-family: 'Work Sanes', sans-serif;
-	font-size: 300%;
-	font-weight: 800;
-	color: #383838;
+.spacing-div-h20px {
+	height: 20px;
+}
+
+.article-wrap {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+}
+
+.case-study {
+	max-width: 660px;
+	min-width: 200px;
+	margin: 0px 5%;
+}
+
+/* ************************************************************************************
+<<<<<<<< !!! REMOVE FROM FILE BEFORE YOU BEGIN !!! >>>>>>>>>>>> 
+************************************************************************************* */
+.temp-content {
+	padding: 230px 20px;
+}
+
+.temp-content h1 {
+	padding: 50px 0px;
+}
+/* ************************************************************************************
+<<<<<<<< !!! REMOVE FROM FILE BEFORE YOU BEGIN !!! >>>>>>>>>>>> 
+************************************************************************************* */
+
+.content {
+	
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,22 +79,32 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	font-weight: 300;
+	font-weight: 400;
 	color: #383838;
 }
 
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	color: #383838;
+	padding: 5px 0px;
+}
 q {
 	font-family: 'Open Sans', sans-serif;
-	font-style:italic;
+	font-style: italic;
 	color: #383838;
 }
-
-a:link {
-	color: #DF1182;
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
 }
-
+a:link {
+	color: #E00B7C;
+}
 a:visited {
-	color: #7B0848;
+	color: #92094B;
 }
 
 img {
@@ -80,13 +113,33 @@ img {
   display: inline-block;
 }
 
+/* !!! CSS TRIANGLE !!! ***************************************************************
+URL: https://css-tricks.com/examples/ShapesOfCSS
+>>> USED AS AN ALTERNATIVE TO FONTAWESOME & HTML ENTITIES >>>
+************************************************************************************* */
+.down-triangle {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 8px solid #FFF;
+	margin-bottom: 8px;
+}
 
+.up-triangle {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottomw: 8px solid red;
+	display: inline-block;
+	margin-top: 1px;
+}
 
 
 /* ************************************************************************************
 SECTION - NAVBAR
 ************************************************************************************* */
-
 nav {
 	height: 40px;
 	width: 100%;
@@ -98,16 +151,15 @@ nav {
 	align-items: center;
 	z-index: 2;
 }
-
 .nav-wrapper {
 	max-width: 1280px;
 	width: 100%;
 	background-color: #303030;
 	opacity: 0.97;
 	display: flex;
+	/*justify-content: flex-end;*/
 	justify-content: space-between;
 }
-
 .logo-button {
 	width: 50px;
 	height: 40px;
@@ -123,22 +175,18 @@ nav {
 /* ************************************************************************************
 SECTION - MENU BAR 
 ************************************************************************************* */
-
 menu {
 	padding-right: 10px;
 }
-
 .menu-button {
 	height: 40px;
 	padding: 0px 5px;
 	display: inline-flex;
     align-items: center;
 }
-
 .menu-button:link {
 		text-decoration: none;
 }
-
 .menu-text {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
@@ -146,15 +194,76 @@ menu {
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
+@media (max-width: 660px) {
+	.menu-button {
+		height: 40px;
+		padding: 0px 3px;
+		display: inline-flex;
+		align-items: center;
+	}
+	.menu-text {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: 86%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: -0.4px;
+	}
+}
+
+
+/* ************************************************************************************
+SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
+************************************************************************************* */
+.connect-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 20px 50px;
+}
+.connect-wrap {
+	max-width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.connect-heading {
+	width: 100%;
+	font-size: 150%;
+	font-weight: 600;
+}
+.connect-text {
+	font-size: 102%;
+	font-weight: 400;
+	line-height: 140%;
+	width: 100%;
+	margin: 20px 25px;
+}
+@media (max-width: 660px) {
+	.connect-block {
+		padding: 10px 20px 40px;
+	}
+	.connect-heading {
+	    width: 100%;
+	    font-size: 24px;
+	    font-weight: 600;
+	}
+	.connect-text {
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 115%;
+		width: 100%;
+		margin: 20px 25px;
+	}
+}
 
 
 
 /* ************************************************************************************
 SECTION - FOOTER
 ************************************************************************************* */
-
 /* ************************************************************************************
-FLOATING DIV - "BACK-TO-TOP BUTTON"
+FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
 ************************************************************************************* */
 
 footer {
@@ -165,81 +274,6 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
-
-.back-top-bar {
-	width: 100%;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.back-top-wrap {
-	width: 42px;
-	position: fixed;
-	bottom: 0;
-	margin: auto;
-}
-
-.back-top-button {	
-	margin: 0 auto;
-	display: block;
-	text-decoration: none;
-}
-
-.back-top-text {
-	text-decoration: underline;
-	text-align: center
-}
-
-.fas {
-	width: 100%;
-	font-size: 180%;
-	text-align: center;	
-}
-
-
-
-/* ************************************************************************************
-SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
-************************************************************************************* */
-
-
-.connect-block {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px 20px 60px;
-}
-
-.connect-wrap {
-	max-width: 440px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.connect-heading {
-	width: 100%;
-	font-size: 150%;
-	font-weight: 600;
-}
-
-.connect-text {
-	font-size: 98%;
-	font-weight: 400;
-	line-height: 115%;
-	width: 100%;
-	margin: 20px 25px;
-}
-
-
-
-/* ************************************************************************************
-FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
-************************************************************************************* */
 
 .footer-bar {
 	max-width: 1460px;
@@ -256,10 +290,10 @@ FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
 	padding-left: 20px;
 	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
-	font-weight: 200;
-	font-size: 88%;
+	font-weight: 400;
+	font-size: 90%;
 	text-align: left;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.2px;
 	line-height: 120%;
 }
 
@@ -282,8 +316,8 @@ FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #ffffff;
-	font-weight: 200;
-	font-size: 87%;
+	font-weight: 400;
+	font-size: 90%;
 	letter-spacing: 0.2px;
 	padding: 0px 11px;
 	text-decoration: underline;
@@ -294,53 +328,7 @@ FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
 	margin: 0px 15px;
 }
 
-
-
-
-
-/* ************************************************************************************
-SECTION - MEDIA QUERIES FOR COMMON ELEMENTS & GENERAL SETTINGS
-************************************************************************************* */
-/* ************************************************************************************
-MEDIA QUERIES - MOBILE DEVICES
-************************************************************************************* */
-
-
-@media (max-width: 560px) {
-	
-	.menu-button {
-		height: 40px;
-		padding: 0px 3px;
-		display: inline-flex;
-		align-items: center;
-	}
-	
-	.menu-text {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 500;
-	font-size: 86%;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	letter-spacing: -0.4px;
-	}
-	
-	.connect-block {
-		padding: 10px 20px 40px;
-	}
-	
-	.connect-heading {
-	    width: 100%;
-	    font-size: 24px;
-	    font-weight: 600;
-	}
-
-	.connect-text {
-		font-size: 17px;
-		font-weight: 400;
-		line-height: 115%;
-		width: 100%;
-		margin: 20px 25px;
-	}
+@media (max-width: 660px) {
 	
     .footer-bar {
     	background-color: #303030;
@@ -395,6 +383,7 @@ MEDIA QUERIES - MOBILE DEVICES
 		padding: 0px 8px;
 		text-decoration: underline;
 	}
-	
-	
 }
+
+
+
