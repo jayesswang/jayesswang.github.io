@@ -130,15 +130,16 @@ SECTION - INTRODUCTION
 SECTION - TECHNICAL INSIGHTS
 ********************************************************************************** */
 pre code {
-	font-size: 95%;
+	font-size: 90%;
   background-color: #eee;
   border: 1px solid #999;
   display: block;
   padding: 10px 15px;
 }
 .topics-list {
-	max-width: 500px;
+	max-width: 660px;
 	min-width: 240px;
+	line-height: 120%;
 	padding: 0px 8%;
 	margin: auto;
 }
@@ -150,11 +151,6 @@ pre code {
 	justify-content: center;
 	padding: 30px 10px;
 }
-@media (max-width: 560px) {
-	pre code {
-		font-size: 90%;
-	}
-}
 @media (max-width: 460px) {
 	pre code {
 		font-size: 80%;
@@ -162,13 +158,13 @@ pre code {
 }
 @media (max-width: 360px) {
 	pre code {
-		font-size: 68%;
+		font-size: 73%;
 		padding: 10px;
 	}
 }
-@media (max-width: 260px) {
+@media (max-width: 300px) {
 	pre code {
-		font-size: 64%;
+		font-size: 70%;
 		padding: 10px 5px;
 	}
 }
