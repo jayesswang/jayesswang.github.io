@@ -12,49 +12,147 @@
 	justify-content: center;
 	align-items: center;
 }
-
 .logo-wrap {
 	
 }
-
 .title h2 {
 	text-decoration: underline;
 	padding: 50px 0px 0px;
 }
-
 .title h1 {
 	padding-bottom: 50px;
 }
-
-.summary {
+.article-block {
 	padding-bottom: 40px;
 }
-.summary h2 {
+.article-block h2 {
 	padding-bottom: 10px;
 }
-
-.problem-solution h3 {
-	padding-bottom: 10px;
+.article-block h3 {
+	padding-bottom: 8px;
 }
 
-.problem-solution {
-	padding-bottom: 40px;
+
+/* *********************************************************************************
+SECTION - ABOUT THIS PROJECT
+********************************************************************************** */
+.view-prototype {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.view-prototype img {
+	max-width: 750px;
+	min-width: 200px;
+	width: 100%;
+	padding: 5px;
+}
+.button-link {
+	width: 170px;
+	height: 40px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-top: 1px;
+	border: solid #383838;
+	text-decoration: none;
+}
+.button-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #383838;
 }
 
-.research h2 {
-	padding-bottom: 10px;
+/* *********************************************************************************
+SECTION - USER RESEARCH, USER HABITS
+********************************************************************************** */
+.research ol {
+	width: 85%;
+	margin: auto;
 }
-
-.research {
-	padding-bottom: 40px;
+.user-habits h2 {
+	padding: 0px 0px 30px;
 }
-
-.analysis h3 {
-	padding-bottom: 10px;
+.user-habits h3 {
+	padding: 40px 0px 3px;
+	text-decoration: underline;
 }
-
-.analysis {
-	padding-bottom: 40px;
+.data-row-group {
+	max-width: 390px;
+	min-width: 220px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.data-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 10px 15px 10px;
+}
+.data-row span {
+	width: 20%;
+	text-align: right;
+	color: #383838;
+	font-weight: 700;
+	font-size: 200%;
+}
+.data-row p {
+	width: 80%;
+	color: #383838;
+	padding: 0px 5px 0px 20px;
+}
+.data-footnote {
+	font-style: italic;
+	text-align: right;
+	margin: 5px 0px 40px;
+	padding: 0px 20px;
+}
+.competitors div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-items: center;
+	padding-top: 15px;
+}
+.competitors img {
+	width: 130px;
+	height: 130px;
+	padding: 10px 10px;
+}
+@media (max-width: 400px) {
+	.data-row {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 15px 10px 15px 10px;
+	}
+	.data-row span {
+		display: inline-block;
+		width: 90%;
+		text-align: center;
+		color: #FFF;
+		font-weight: 700;
+		font-size: 200%;
+		margin-bottom: 10px;
+	}
+	.data-row p {
+		display: inline-block;
+		width: 90%;
+		text-align: center;
+		color: #FFF;
+		padding: 0px;
+	}
 }
 
 /* ************************************************************************
@@ -63,8 +161,8 @@ SECTION - PERSONAS
 .personas {
 	margin-bottom: 30px;
 }
-.personas h3 {
-	margin-bottom: 20px;
+.personas-group h3 {
+	padding-bottom: 8px;
 }
 .personas-group {
 	width: 90%;
@@ -102,75 +200,65 @@ SECTION - PERSONAS
 		text-align: center;
 	}
 }
-/* *********************************************************************************
-SECTION - ABOUT THIS PROJECT
-********************************************************************************** */
-.view-prototype {
-	margin-bottom: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.view-prototype img {
-	max-width: 750px;
-	min-width: 200px;
-	width: 100%;
-	padding: 5px;
-}
-.button-link {
-	width: 170px;
-	height: 40px;
-	display: flex;
-  justify-content: center;
-  align-items: center;
-	padding-top: 1px;
-	border: solid #383838;
-	text-decoration: none;
-}
-.button-text {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #383838;
-}
+
 
 /* ************************************************************************
-SECTION - WIREFRAMES 
+SECTION - USER FLOWS, WIREFRAMES, TESTING, MOCKUPS
 ************************************************************************* */
-.dark-solid-wrap {
-	background-color: #05646A;
+.light-solid-wrap {
+	width: 100%;
+	background-color: #CCECEE;
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
-.wireframes-wrap {
+.screenshots-wrap {
 	width: 100%;
-	padding: 0px 0px 10px;
+	padding: 0px;
 }
-
-.wireframes-group {
-	color: #FFF;
+.screenshots-wrap h2 {
+	color: #383838;
+	margin: 40px 0px 30px;
+}
+.screenshots-group {
 	margin-bottom: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
-
-.wireframe {
-	max-width: 30%;
-	margin: 10px;
+.screenshot {
+	max-width: 45%;
+	padding: 10px;
 }
-
-.wireframes-wrap h2 {
-	color: #FFF;
-	margin: 40px 0px 30px;
+.wireframe-group {
+	max-width: 1280px;
+	width: 100%;
+	padding: 40px 0px 50px;
 }
-
-@media (max-width: 880px) {
-	
-	.wireframe {
-		max-width: 45%;
-		margin: 8px;
+.wireframe-group h2 {
+	padding-bottom: 30px;
+}
+.wireframes {
+	background-image: url(../images/cs-boxly/boxly-wireframes.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 600px;
+}
+@media (max-width: 800px) {
+	.screenshots-group {
+		display: flex;
+		flex-direction: column;
 	}
+	.screenshot {
+		max-width: 95%;
+		padding: 5px 10px;
+	}
+}
+.testing ol{
+	width: 88%;
+	margin: auto;
 }
