@@ -80,11 +80,14 @@ MY AVATAR & RESUME LINK
 	font-weight: 700;
 	color: #FFF;
 }
-
-
-
+.bio-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .bio {
 	max-width: 600px;
+	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	color: #404040;
 	font-size: 103%;
@@ -102,15 +105,25 @@ MY AVATAR & RESUME LINK
 	-moz-column-rule: 1px solid #ddd;
 	column-rule: 1px solid #ddd;*/
 }
-
-
+.calvin-hobbes {
+	padding: 15px 0px;
+}
+#calvin-hobbes-explore {
+	max-width: 70%;
+}
+#calvin-hobbes-reading {
+	max-width: 43%;
+}
+#calvin-hobbes-brain-scanner {
+	max-width: 55%;
+}
 .tools-group {
 	background-color: #DFDFDF;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .tools-wrap {
