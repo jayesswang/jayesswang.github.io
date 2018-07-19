@@ -10,15 +10,12 @@ p {
 	color: #383838;
 	line-height: 140%;
 }
-
 a:link {
 	color: #A2078D;
 }
-
 a:visited {
 	color: #6D0A5F;
 }
-
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -36,27 +33,23 @@ FORMAT CONTENT - SECTIONS & COLUMNS
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
-
 .dark-meme-wrap {
 	background-image: url(../images/cs-meme/meme-cs-bkgd-img.png);
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
 }
-
 .dark-solid-wrap {
 	background-color: #332F79;
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
 }
-
 .one-half {
 	width: 50%;
 	padding: 0px;
 	margin: 0px;
 }
-
 .one-third {
 	width: 33.33%;
 	padding: 0px;
@@ -70,16 +63,10 @@ CASE STUDY TITLE SETTINGS
 .title {
 	margin: 50px 5px 70px;
 }
-
 .title h2 {
 	text-decoration: underline;
 	margin-bottom: 5px;
 }
-
-.intro h2 {
-	margin-bottom: 20px;
-}
-
 .superscript {
 	vertical-align: super;
 	font-size: .43em;
@@ -93,21 +80,21 @@ SECTION - ABOUT THIS PROJECT
 .intro {
 	margin-bottom: 35px;
 }
-
+.intro h2 {
+	margin-bottom: 20px;
+}
 .view-prototype {
 	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 .view-prototype img {
 	max-width: 750px;
 	min-width: 200px;
 	width: 100%;
 	padding: 5px 10px;
 }
-
 .button-link {
 	width: 170px;
 	height: 40px;
@@ -119,21 +106,17 @@ SECTION - ABOUT THIS PROJECT
 	border: solid #383838;
 	text-decoration: none;
 }
-
 .button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #383838;
 }
-
 .problem-solution h3 {
 	margin-bottom: 20px;
 }
-
 .problem-solution {
 	margin-bottom: 50px;
 }
-
 
 
 /* *****************************************************************************
@@ -143,25 +126,21 @@ SECTION - MY DESIGN PROCESS
 	width: 660px;
 	padding: 0px;
 }
-
 .process-wrap h2 {
 	color: #FFF;
 	margin: 40px 0px 30px;
 }
-
 .process-wrap h3 {
 	color: #FFF;
 	margin-bottom: 10px;
 	font-weight: 500;
 	text-decoration: underline;
 }
-
 .process-skills {
 	color: #FFF;
 	display: flex;
 	margin: 0px 5px 30px;
 }
-
 .process-skills ul {
 	list-style-type: none;
 	margin: 0px;
@@ -170,17 +149,14 @@ SECTION - MY DESIGN PROCESS
 	line-height: 140%;
 	letter-spacing: 0.2px;
 }
-
 .process-skills li {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #FFF;
 }
-
 .role-n-tools {
 	margin-bottom: 20px;
 }
-
 .role-n-tools span {
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -200,32 +176,25 @@ SECTION - RESEARCH & ANALYSIS
 .research {
 	margin: 70px 0px 0px;
 }
-
 .research h2 {
 	margin-bottom: 20px;
 }
-
 .research p {
 	margin-bottom: 60px;
 }
-
 .research img {
 	margin: 20px 0px 60px;
 }
-
 .video-group {
 	width: 90%;
 	display: flex;
 }
-
 .video-group h3 {
 	margin: 10px;
 }
-
 .video.one-half {
 	padding: 0px 5px;
 }
-
 .video-wrap {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -239,25 +208,20 @@ SECTION - RESEARCH & ANALYSIS
 	width: 100%;
 	height: 100%;
 }
-
 .research-spacer {
 	height: 90px;
 }
-
 @media (max-width: 700px) {
-	
 	.video-group {
 		width: 98%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	
 	.video.one-half {
 		width: 100%;
 	}
 }
-
 
 
 /* ******************************************************************
