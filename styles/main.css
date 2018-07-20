@@ -298,17 +298,10 @@ footer {
 	font-weight: 400;
 	font-size: 90%;
 	letter-spacing: 0.2px;
-	padding: 0px 11px;
+	padding: 0px 8px;
 	text-decoration: underline;
 }
-
-.social-button {
-	width: 40px;
-	margin: 0px 15px;
-}
-
 @media (max-width: 660px) {
-	
     .footer-bar {
     	background-color: #303030;
     	display: flex;
@@ -316,7 +309,6 @@ footer {
 		align-items: center;
     	padding: 20px 0px;
     }
-	
 	.copyright {
     	width: 100%;
 		margin-bottom: 10px;
@@ -329,7 +321,6 @@ footer {
     	letter-spacing: 0.2px;
 		order: 2;
     }
-	
     .social-footer-wrap {
     	width: 100%;
     	margin: 10px 0px 20px;
@@ -338,20 +329,12 @@ footer {
     	justify-content: center;
 		order: 1;
     }
-
-	.social-button {
-		width: 35px;
-		margin: 0px 11px 5px;
-		
-	}
-	
 	.social-link {
 		padding: 0px;
 		display: inline-flex;
 		align-items: center;
 		text-decoration: none;
 	}
-	
 	.social-text {
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
@@ -363,6 +346,5 @@ footer {
 		text-decoration: underline;
 	}
 }
-
 
 

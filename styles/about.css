@@ -6,28 +6,23 @@ SECTION - ABOUT
 /* ************************************************************************************
 MY AVATAR & RESUME LINK
 ************************************************************************************* */
-
-
 .about {
 	padding: 0px 0px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center
 }
-
 .about-heading h1 {
 	color: #FFF;
 	width: 100%;
 	margin-bottom: 20px;
 }
-
 .about-heading {
 	background-color: #DC0E7D;
 	width: 100%;
 	padding: 40px 0px 30px;
 	margin-bottom: 40px;
 }
-
 .profile {
 	display: flex;
 	flex-direction: column;
@@ -36,44 +31,54 @@ MY AVATAR & RESUME LINK
 	padding: 15px;
 	/*margin-bottom: 30px;*/
 }
-
 .avatar {
 	width: 150px;
 	/*border: thin solid #404040;
 	border-radius: 50%;*/
-	margin-bottom: 20px;
-}
-
+	margin-bottom: 18px;
+}/*
 .email-button {
 	width: 150px;
 	height: 36px;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 	padding-top: 1px;
 	border: solid #FFF;
 	text-decoration: none;
 }
-
 .email-button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.1px;
 	color: #FFF;
+}*/
+.social-header-wrap {
+	margin: 0px 12%;
+	display: flex;
+	justify-content: center;
 }
-
+.social-button {
+	width: 40px;
+	margin: 0px 12px;
+}
+@media (max-width: 660px) {
+	.social-button {
+		width: 35px;
+		margin: 0px 10px;
+	}
+}
 .resume-button {
 	width: 150px;
 	height: 36px;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-	margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+	margin-top: 25px;
 	padding-top: 1px;
 	border: solid #FFF;
 	text-decoration: none;
 }
-
 .resume-button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -106,16 +111,37 @@ MY AVATAR & RESUME LINK
 	column-rule: 1px solid #ddd;*/
 }
 .calvin-hobbes {
-	padding: 15px 0px;
+	padding: 24px 0px;
 }
 #calvin-hobbes-explore {
-	max-width: 70%;
+	max-width: 74%;
 }
 #calvin-hobbes-reading {
-	max-width: 43%;
+	max-width: 41%;
 }
-#calvin-hobbes-brain-scanner {
-	max-width: 55%;
+@media (max-width: 660px) {
+	.calvin-hobbes {
+		padding: 28px 0px;
+	}
+	#calvin-hobbes-explore {
+		max-width: 84%;
+	}
+	#calvin-hobbes-reading {
+		max-width: 44%;
+	}
+}
+@media (max-width: 560px) {
+	#calvin-hobbes-explore {
+		max-width: 93%;
+	}
+	#calvin-hobbes-reading {
+		max-width: 50%;
+	}
+}
+@media (max-width: 460px) {
+	#calvin-hobbes-reading {
+		max-width: 60%;
+	}
 }
 .tools-group {
 	background-color: #DFDFDF;
@@ -125,20 +151,17 @@ MY AVATAR & RESUME LINK
 	padding-top: 40px;
 	margin-bottom: 0px;
 }
-
 .tools-wrap {
 	max-width: 560px;
 	width: 100%;
 	padding: 0px 15px;
 	margin-bottom:40px;
 }
-
 .tools-wrap h3 {
 	color: #383838;
 	text-decoration: underline;
 	margin-bottom: 2px;
 }
-
 .tools-text {
 	font-family: 'Open Sans', sans-serif;
 	color: #383838;
