@@ -25,15 +25,20 @@ header {
 	font-weight: 700;
 	font-size: 2.1em;
 	text-transform: uppercase;
-	margin: 0px 15px 20px;
+	margin: 0px 15px 0px;
 	color: #383838;
-} 
+}
+.my-role {
+	font-weight: 500;
+	padding: 0px 12px;
+}
 .header-intro {
+	max-width: 660px;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.1em;
 	letter-spacing: 0.2px;
-	padding: 0px 8px;
+	padding: 0px 15px;
 }
 .social-header-wrap {
 	margin: 20px 12% 0px;
@@ -44,10 +49,19 @@ header {
 	width: 40px;
 	margin: 0px 15px;
 }
-@media (max-width: 660px) {
+@media (max-width: 460px) {
 	.social-button {
-		width: 35px;
-		margin: 0px 11px 5px;
+		width: 36px;
+		margin: 0px 12px;
+	}
+}
+@media (max-width: 260px) {
+	.my-name {
+		font-size: 2em;
+	}
+	.social-button {
+		width: 36px;
+		margin: 0px 8px;
 	}
 }
 
@@ -141,7 +155,7 @@ MEDIA QUERIES - MOBILE DEVICES
 		font-size: 2em;
 	}
 	.header-intro {
-		font-size: 1.1em;
+		font-size: 1.05em;
 	}
 	.row-content {
 		width: 87%;
@@ -164,9 +178,6 @@ MEDIA QUERIES - MOBILE DEVICES
 	}
 }
 @media (max-width: 380px) {
-	.row {
-		height: 610px;
-	}
 	.row-modal {
 		margin: 0px 15%;
 	}
