@@ -194,10 +194,10 @@ PROJECTS - PROJECT ROW STYLING
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-image: url(../images/meme-hero-img.png);
+	background-image: url(../images/cs-meme/meme-hero-img.png);
 }
 #boxly {
-	background-image: url(../images/boxly-hero-img-v1.png);
+	background-image: url(../images/cs-boxly/boxly-hero-img-v1.png);
 	background-size: cover;
 	background-position: 50% 50%;
 	position: relative;

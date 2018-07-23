@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="J.S. Wang">
+<meta name="description" content="Welcome to the portfolio of J.S. Wang, a UX designer. A creative storyteller, visual strategist, and empathetic advocate of user-centered experiences. Check out my latest projects and drop me a line to say hello.">
+<title>JAYESS WANG PORTFOLIO</title>
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Work+Sans:300,400,500,600,700,800,900" rel="stylesheet">
+<!-- CSS -->
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="styles/main-template.css" rel="stylesheet" type="text/css">
+<link href="styles/accordion.css" rel="stylesheet" type="text/css">
+<!-- favicon -->
+<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+</head>
+
+<body>
+<nav>
+  <div class="nav-wrapper"> 
+		<a href="index.html" class="logo-button"><img src="images/graphics/logo-small.png" alt="navbar logo"></a>
+    <menu>
+			<a href="index.html" class="menu-button"><span class="menu-text">HOME</span></a>
+			<a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span></a>
+			<a href="about.html" class="menu-button"><span class="menu-text">ABOUT</span></a>
+		</menu>
+  </div>
+</nav>
+
+	
+<section class="container shadow"><a name="navbar"></a>
+  <header>
+    <section class="spacing-div-h40px"></section>
+		<section class="spacing-div-h40px"></section>
+  </header>
+<!-- !!! START HERE ***TESTING CODE: DROPDOWN MENU*** !!!-->
+	<div class="navbar">
+		<a href="index.html" class="menu-button">HOME</a>
+		<div class="dropdown">
+			<button class="dropbtn"><span>PROJECTS &#9662;</span></button>
+			<div class="dropdown-content">
+				<a href="cs-meme.html">WHAT DO YOU MEME?</a>
+				<a href="cs-folio.html">JW PORTFOLIO</a>
+				<a href="cs-boxly.html">BOXLY</a>
+			</div>
+		</div>
+		<a href="about.html" class="menu-button">ABOUT</a>
+	</div>
+<!-- !!! END HERE ***TESTING CODE: DROPDOWN MENU*** !!!-->
+<style>
+.dropdown-wrap {
+	display: inline-block;
+	overflow: hidden;
+}
+.dropdown-wrap a {
+	font-size: inherit; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* The dropdown container */
+.dropdown {
+  /*float: left;*/
+	font-family: inherit;
+	font-size: inherit;
+	height: 40px;
+  overflow: hidden;
+}
+/* Navbar container */
+.navbar {
+	height: 40px;
+  overflow: hidden;
+  background-color: #303030;
+	opacity: 0.97;
+  font-family: 'Work Sans', sans-serif;
+	font-size: 90%;
+	display: flex;
+	align-items: flex-end;
+}
+/* Links inside the navbar */
+.navbar a {
+  font-size: inherit;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: inherit; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.dropbtn span {
+	padding-left: .3em;
+	vertical-align: 90%;
+}
+/* Add a red background color to navbar links on hover 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}*/
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #484848;
+  min-width: 160px;
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #FF0090;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* ************************************************************************************
+SECTION - NAVBAR
+************************************************************************************* */
+nav {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+.nav-wrapper {
+	max-width: 1280px;
+	width: 100%;
+	background-color: #303030;
+	opacity: 0.97;
+	display: flex;
+	justify-content: space-between;
+}
+.logo-button {
+	width: 50px;
+	height: 40px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: none;
+}
+/* ************************************************************************************
+SECTION - MENU BAR 
+************************************************************************************* */
+menu {
+	padding-right: 10px;
+}
+.menu-button {
+	height: 40px;
+	padding: 0px 5px;
+	display: inline-flex;
+  align-items: center;
+}
+.menu-button:link {
+		text-decoration: none;
+}
+.menu-button.dropdown {
+	
+}
+.menu-text {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 90%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+@media (max-width: 660px) {
+	.menu-button {
+		height: 40px;
+		padding: 0px 3px;
+		display: inline-flex;
+		align-items: center;
+	}
+	.menu-text {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
+	font-size: 86%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: -0.4px;
+	}
+}
+</style>
+
+  <article>
+    <section class="article-wrap">
+      <div class="case-study">
+        <div> 
+          <!-- !!! START ***INTRO PARAGRAPH*** HERE !!!--> 
+        </div>
+      </div>
+      <!-- !!! DELETE ***TEMP-CONTENT*** SECTION BEFORE YOU START !!!-->
+      <div class="temp-content">
+        <h1>CONTENT GOES HERE!</h1>
+        <h1>CONTENT GOES HERE!</h1>
+        <h1>CONTENT GOES HERE!</h1>
+        <h1>CONTENT GOES HERE!</h1>
+        <h1>CONTENT GOES HERE!</h1>
+      </div>
+      <!-- !!! DELETE ***TEMP-CONTENT*** SECTION BEFORE YOU START !!!--> 
+    </section>
+  </article>
+  <section class="connect-block"><a name="contact-anchor"></a>
+    <div class="connect-wrap">
+      <h2 class="connect-heading">Wanna connect?</h2>
+      <p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/v7-ux-resume-pink-20180619.pdf">download my resume</a>. </p>
+    </div>
+  </section>
+  <section class="tab">
+    <input id="tab-one" type="checkbox" name="tabs">
+    <label for="tab-one">MORE PROJECTS</label>
+    <div class="down-triangle"></div>
+    <div class="tab-content"> <a href="index.html">WHAT DO YOU MEME?</a> <a href="index.html">JW PORTFOLIO</a> <a href="index.html">BOXLY</a> </div>
+  </section>
+  <footer>
+    <div class="footer-bar">
+      <p class="copyright">Copyright ©2018 J.S. Wang <br>
+        Designed and developed by J.S. Wang</p>
+			<div class="social-footer-wrap"> 
+				<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> <a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> <a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> <a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a>
+			</div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
+
+<!--
+	 <div class="social-footer-wrap"> 
+		<a href="https://www.instagram.com/jayesswang" class="social-button" target="_blank"> <img src="images/icon-instagram-wht.png" alt="instagram icon link"> </a> <a href="https://www.linkedin.com/in/jayesswang" class="social-button" target="_blank"> <img src="images/icon-linkedin-wht.png" alt="linkedin icon link"> </a> <!--<a href="https://twitter.com/jayesswang" class="social-button" target="_blank"> <img src="images/icon-twitter-wht.png" alt="twitter icon link"> </a>--><!-- <a href="https://github.com/jayesswang" class="social-button" target="_blank"> <img src="images/icon-github-wht.png" alt="github icon link"> </a> </div>
+-->
