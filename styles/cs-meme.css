@@ -40,18 +40,20 @@ FORMAT CONTENT - SECTIONS & COLUMNS
 	justify-content: center;
 }
 .dark-solid-wrap {
-	background-color: #332F79;
+	background-color: #282462;
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
 }
+.light-solid-wrap {
+	background-color: #DDDCEC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .one-half {
 	width: 50%;
-	padding: 0px;
-	margin: 0px;
-}
-.one-third {
-	width: 33.33%;
 	padding: 0px;
 	margin: 0px;
 }
@@ -118,6 +120,46 @@ SECTION - ABOUT THIS PROJECT
 	margin-bottom: 50px;
 }
 
+/* ************************************************************************
+SECTION - SCREENSHOTS OF MOBILE GAME SCREENS 
+************************************************************************* */
+.screenshots-wrap {
+	width: 100%;
+	padding: 0px 0px 10px;
+}
+.screenshots-wrap h2 {
+	margin: 40px 0px 30px;
+	color: #FFF;
+}
+.screenshots-wrap h4 {
+	font-weight: 500;
+	color: white;
+	padding-bottom: 7px;
+}
+.screenshots-wrap h5 {
+	color: white;
+	padding-bottom: 5px;
+}
+.screenshots-group {
+	color: #FFF;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.screenshot {
+	max-width: 45%;
+	margin: 10px 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 680px) {
+	.screenshot {
+		max-width: 100%;
+		margin: 5px 15px 20px;
+	}
+}
 
 /* *****************************************************************************
 SECTION - MY DESIGN PROCESS
@@ -139,14 +181,19 @@ SECTION - MY DESIGN PROCESS
 .process-skills {
 	color: #FFF;
 	display: flex;
-	margin: 0px 5px 30px;
+	margin: 0px 5px 30px 5px;
+}
+.one-third {
+	width: 33.33%;
+	padding: 0px;
+	margin: 15px 0px;
 }
 .process-skills ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
-	line-height: 140%;
+	line-height: 115%;
 	letter-spacing: 0.2px;
 }
 .process-skills li {
@@ -156,9 +203,12 @@ SECTION - MY DESIGN PROCESS
 }
 .role-n-tools {
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .role-n-tools span {
-	width: 100%;
+	width: 95%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #FFF;
@@ -167,7 +217,16 @@ SECTION - MY DESIGN PROCESS
 	margin-bottom: 30px;
 	letter-spacing: 0.2px;
 }
-
+@media (max-width: 500px) {
+	.process-skills {
+		flex-direction: column;
+		align-items: center;
+	}
+	.one-third {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
 
 
 /* *********************************************************************************
@@ -175,15 +234,23 @@ SECTION - RESEARCH & ANALYSIS
 ********************************************************************************** */
 .research {
 	margin: 70px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .research h2 {
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 .research p {
 	margin-bottom: 60px;
 }
-.research img {
+.global-market {
 	margin: 20px 0px 60px;
+}
+.meme-cards {
+	max-width: 460px;
+	width: 100%;
+	padding: 10px;
 }
 .video-group {
 	width: 90%;
@@ -455,6 +522,15 @@ SECTION - INFORMATION ARCHITECTURE
 .info-arch h2 {
 	margin-bottom: 20px;
 }
+.user-flows {
+	padding: 40px 10px;
+}
+.sketches-title {
+	padding: 40px 10px 30px;
+}
+.user-flows h3 {
+	padding-bottom: 50px;
+}
 #meme-sketches {
 	background-image: url(../images/cs-meme/meme-sketches.png);
 	background-size: cover;
@@ -462,45 +538,7 @@ SECTION - INFORMATION ARCHITECTURE
 	background-position: 50% 50%;
 	width: 100%;
 	height: 600px;
-	margin-bottom: 20px;
 }
-
-
-/* ************************************************************************
-SECTION - WIREFRAMES 
-************************************************************************* */
-.wireframes-wrap {
-	width: 100%;
-	padding: 0px 0px 10px;
-}
-
-.wireframes-group {
-	color: #FFF;
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.wireframe {
-	max-width: 45%;
-	margin: 10px;
-}
-
-.wireframes-wrap h2 {
-	color: #FFF;
-	margin: 40px 0px 30px;
-}
-
-@media (max-width: 880px) {
-	
-	.wireframe {
-		max-width: 45%;
-		margin: 8px;
-	}
-}
-
 
 
 /* ************************************************************************
@@ -642,38 +680,4 @@ SECTION - RAPID PROTOTYPING
 }
 
 
-/* ************************************************************************
-SECTION - MOCKUPS 
-************************************************************************* */
-.mockups-wrap {
-	width: 100%;
-	padding: 0px 0px 10px;
-}
-
-.mockups-group {
-	color: #FFF;
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.mockup {
-	max-width: 45%;
-	margin: 10px;
-}
-
-.mockups-wrap h2 {
-	color: #FFF;
-	margin: 40px 0px 30px;
-}
-
-@media (max-width: 880px) {
-	
-	.mockup {
-		max-width: 45%;
-		margin: 8px;
-	}
-}
 
