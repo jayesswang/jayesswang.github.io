@@ -5,8 +5,15 @@
 /* ************************************************************************************
 SECTION - HEADER (JW-FOLIO)
 ************************************************************************************* */
-.folio-header {
+header {
+	width: 100%;
 	background-color: #FFED4B;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.folio-header {
+	width: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -56,12 +63,10 @@ SECTION - HEADER (JW-FOLIO)
 SECTION - ARTICLE (JW-FOLIO)
 ************************************************************************************* */
 .article-wrap {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	width: 100%;
 }
 .case-study {
-	max-width: 660px;
+	max-width: 800px;
 	min-width: 240px;
 	margin: 0px 5%;
 }
@@ -100,7 +105,21 @@ CASE STUDY TITLE SETTINGS
 	text-decoration: underline;
 	padding-bottom: 5px;
 }
-
+.update {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.update span {
+	text-decoration: underline;
+}
+.update p {
+	font-style: italic;
+	width: 460px;
+	padding: 20px;
+	margin: 20px 10px 40px;
+	border: medium solid;
+}
 
 /* *********************************************************************************
 SECTION - INTRODUCTION
