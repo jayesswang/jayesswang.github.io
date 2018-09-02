@@ -681,3 +681,13 @@ SECTION - RAPID PROTOTYPING
 
 
 
+
+.conclusion {
+	padding: 50px 10px 50px;
+}
+.conclusion ol {
+	padding: 10px 8%;
+}
+.conclusion h2 {
+	padding: 20px 10px;
+}
