@@ -46,7 +46,7 @@ FORMAT CONTENT - SECTIONS & COLUMNS
 	justify-content: center;
 }
 .light-solid-wrap {
-	background-color: #DDDCEC;
+	background-color: #FFF;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -524,6 +524,12 @@ SECTION - INFORMATION ARCHITECTURE
 }
 .user-flows {
 	padding: 40px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}.user-flows img {
+	padding: 10px;
 }
 .sketches-title {
 	padding: 40px 10px 30px;
@@ -685,6 +691,7 @@ SECTION - RAPID PROTOTYPING
 .conclusion {
 	padding: 50px 10px 50px;
 }
+
 .conclusion ol {
 	padding: 10px 8%;
 }
