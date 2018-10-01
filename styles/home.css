@@ -190,6 +190,13 @@ MEDIA QUERIES - MOBILE DEVICES
 /* ************************************************************************************
 PROJECTS - PROJECT ROW STYLING
 ************************************************************************************* */
+#daily_ui {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-image: url(../images/index/daily_ui.png);
+	background-color: #004E8F;
+}
 #meme {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -237,4 +244,3 @@ PROJECTS - PROJECT ROW STYLING
 .octocat-wrap {
 	width: 290px;
 }
-
