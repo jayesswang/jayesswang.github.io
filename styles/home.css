@@ -191,7 +191,7 @@ MEDIA QUERIES - MOBILE DEVICES
 PROJECTS - PROJECT ROW STYLING
 ************************************************************************************* */
 #daily_ui {
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-image: url(../images/index/daily_ui.png);
