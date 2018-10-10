@@ -222,6 +222,13 @@ PROJECTS - PROJECT ROW STYLING
 	justify-content: space-between;
 	background-color: #FFED48;
 }
+#photo {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-image: url(../images/index/sealions_on_buoy.jpeg);
+	background-color: #004E8F;
+}
 .folio-hero-row-1 {
 	align-self: flex-start;
 	margin: 25px 0px 0px 25px;
