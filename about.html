@@ -20,9 +20,8 @@
 <!-- CSS -->
 <!--<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
-<link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="styles/main-v2.css" rel="stylesheet" type="text/css">
 <link href="styles/about.css" rel="stylesheet" type="text/css">
-<link href="styles/accordion.css" rel="stylesheet" type="text/css">
 <!-- favicon -->
 <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
 </head>
@@ -30,7 +29,7 @@
 <body>
 <nav>
   <div class="nav-wrapper"> 
-		<a href="index.html" class="logo-button"><img src="images/graphics/logo-small.png" alt="navbar logo"></a>
+		<a href="index.html" class="logo-button"><img src="images/graphics/logo-big.png" alt="navbar logo"></a>
     <menu>
 			<!--<a href="index.html" class="menu-button"><span class="menu-text">HOME</span></a>-->
 			<a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span></a>
@@ -39,11 +38,10 @@
 		</menu>
   </div>
 </nav>
+
 <a name="navbar"></a>
-<header>
+<header class="about"><a name="about-link"></a>
 	<section class="spacing-div-h40px"></section>
-</header>
-<section class="about"><a name="about-link"></a>
 	<div class="about-heading">
     <h1>ABOUT</h1>
 		<div class="profile">
@@ -57,8 +55,9 @@
 			</div>
 			<a href="docs/uxd-resume-js-wang.pdf" class="resume-button" target="_blank"> <span class="resume-button-text">VIEW RESUME</span> </a>
 		</div>
-	  </div>
-</section>
+	</div>
+	<section class="spacing-div-h40px"></section>
+</header>
 <section class="container">
 	<div class="article-wrap">
     <article class="case-study bio-wrap">
@@ -74,7 +73,7 @@
     </article>
 	</div>
 </section>
-  <section class="tools-group">
+<section class="tools-group">
 	<div class="tools-wrap">
 		<h3>MY TOOLS</h3>
 		<p class="tools-text">
@@ -88,34 +87,28 @@
 			Field Study, Personas, Info Architecture, Flow Diagrams, Sketches, Wireframes, Rapid Prototyping, Usability Testing, Heuristic Evaluation
 		</p>
 	</div>
-  </section>
-  <section class="connect-block"><a name="contact-anchor"></a>
-    <div class="connect-wrap">
-      <h2 class="connect-heading">Wanna connect?</h2>
-      <p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/uxd-resume-js-wang.pdf" target="_blank">download my resume</a>. </p>
-    </div>
-  </section>
+</section>
+
+<!--<section class="connect-block"><a name="contact-anchor"></a>
+	<div class="connect-wrap">
+		<h2 class="connect-heading">Wanna connect?</h2>
+		<p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/uxd-resume-js-wang.pdf" target="_blank">download my resume</a>. </p>
+	</div>
+</section>-->
+
 <section class="footer-wrap">
-	<section class="tab">
-		<input id="tab-one" type="checkbox" name="tabs">
-		<label for="tab-one">SEE PROJECTS</label>
-		<div class="down-triangle"></div>	  	  
-		<div class="tab-content">
-		<a href="cs-meme.html">WHAT DO YOU MEME?</a>
-		<a href="cs-folio.html">JW PORTFOLIO</a>
-		<a href="cs-boxly.html">BOXLY</a>
-		</div>
-	</section>
 	<footer>
-		<div class="footer-bar">
-			<p class="copyright">Copyright ©2018 J.S. Wang <br>
-				Designed and developed by J.S. Wang</p>
-			<div class="social-footer-wrap"> 
-				<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> <a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> <a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> <a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a>
-			</div>
+		<div class="social-footer-wrap"> 
+			<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> 
+			<a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> 
+			<a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> 
+			<a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a>
 		</div>
+		<p class="copyright">Copyright ©2018 J.S. Wang <br>
+			Designed and developed by J.S. Wang</p>
 	</footer>
 </section>
+
 </body>
 </html>
 
