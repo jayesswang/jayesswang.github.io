@@ -11,7 +11,6 @@ GENERAL SETTINGS
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	background-color: #FFF;
 	display: flex;
@@ -19,35 +18,33 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
 .container {
 	max-width: 1200px;
 	width: 100%;
 }
-
 .container.shadow {
 	-moz-box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
 	-webkit-box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
 	box-shadow: 0px 0px 16px rgba(16,16,16,0.18);
 }
-
 .spacing-div-h100px {
 	height: 100px;
 }
 .spacing-div-h40px {
 	height: 40px;
 }
-
+.spacing-div-h30px {
+	height: 30px;
+}
 .spacing-div-h20px {
 	height: 20px;
 }
-
 .article-wrap {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 .case-study {
 	max-width: 660px;
 	min-width: 200px;
@@ -94,38 +91,13 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
-
-/* !!! CSS TRIANGLE !!! ***************************************************************
-URL: https://css-tricks.com/examples/ShapesOfCSS
->>> USED AS AN ALTERNATIVE TO FONTAWESOME & HTML ENTITIES >>>
-************************************************************************************* */
-.down-triangle {
-	width: 0;
-	height: 0;
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 8px solid #FFF;
-	margin-bottom: 8px;
-}
-
-.up-triangle {
-	width: 0;
-	height: 0;
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-bottomw: 8px solid red;
-	display: inline-block;
-	margin-top: 1px;
-}
-
-
-/* ************************************************************************************
+/* *************************************************************************************
 SECTION - NAVBAR
 ************************************************************************************* */
 nav {
 	height: 40px;
 	width: 100%;
-	background-color: #303030;
+	background-color: #FFF;
 	opacity: 0.97;
 	position: fixed;
 	top: 0;
@@ -134,10 +106,14 @@ nav {
 	justify-content: center;
 	align-items: center;
 	z-index: 2;
+	border: thin solid #EEEEEE;
+	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
+	box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
 }
 .nav-wrapper {
-	max-width: 1200px;
 	width: 100%;
+	max-width: 1200px;
+	min-width: 200px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -150,8 +126,6 @@ nav {
 	align-items: center;
 	background-color: none;
 }
-
-
 
 /* ************************************************************************************
 SECTION - MENU BAR 
@@ -170,146 +144,75 @@ menu {
 }
 .menu-text {
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
-	font-size: 90%;
+	font-weight: 600;
+	font-size: 0.88em;
+	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #E40281;
 }
 @media (max-width: 660px) {
 	.menu-button {
-		height: 40px;
 		padding: 0px 3px;
-		display: inline-flex;
-		align-items: center;
 	}
 	.menu-text {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 500;
-	font-size: 86%;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	letter-spacing: -0.4px;
+	font-size: 0.88em;
 	}
 }
-
-
-
-
-
-
 /* ************************************************************************************
-SECTION - FOOTER
-************************************************************************************* */
-/* ************************************************************************************
+NEW SECTION
+************************************************************************************* ************************************************************************************
 FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
 ************************************************************************************* */
-
-footer {
-	width: 100%;
-	background-color: #383838;
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer-bar {
-	max-width: 1200px;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-	padding: 20px 0px;
-}
 .footer-wrap {
 	width: 100%;
-	background: #505050;
 }
-.copyright {
-	width: 50%;
-	margin: 0;
-	padding-left: 20px;
+footer {
 	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
-	font-weight: 400;
-	font-size: 90%;
-	text-align: left;
-	letter-spacing: 0.2px;
-	line-height: 120%;
-}
-
-.social-footer-wrap {
-	width: 50%;
-	padding-right: 9px;
-	margin: 0;
+	color: #555;
+	padding: 40px 5px 20px;
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-
+.social-footer-wrap {
+		width: 100%;
+		padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+}
 .social-link {
 	padding: 0px;
 	display: inline-flex;
   align-items: center;
 	text-decoration: none;
 }
-
 .social-text {
-	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	font-weight: 600;
+	font-size: 0.88em;
 	text-transform: uppercase;
-	color: #ffffff;
-	font-weight: 400;
-	font-size: 90%;
 	letter-spacing: 0.2px;
-	padding: 0px 8px;
+	padding: 0px 5px;
 	text-decoration: underline;
 }
-@media (max-width: 660px) {
-	.footer-bar {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 20px 0px;
-	}
-	.copyright {
-		width: 100%;
-		margin-bottom: 10px;
-		padding: 0;
-		font-family: 'Kanit', sans-serif;
-		color: #ffffff;
-		font-weight: 200;
-		font-size: 85%;
-		text-align: center;
-		letter-spacing: 0.2px;
-		order: 2;
-	}
-	.social-footer-wrap {
-		width: 100%;
-		margin: 10px 0px 20px;
-		padding: 0;
-    display: flex;
-    justify-content: center;
-		order: 1;
-  }
-	.social-link {
-		padding: 0px;
-		display: inline-flex;
-		align-items: center;
-		text-decoration: none;
-	}
-	.social-text {
-		font-family: 'Open Sans', sans-serif;
-		text-transform: uppercase;
-		color: #ffffff;
-		font-weight: 200;
-		font-size: 0.86em;
-		letter-spacing: 0.2px;
-		padding: 0px 8px;
-		text-decoration: underline;
-	}
+.copyright {
+	width: 100%;
+	font-weight: 400;
+	font-size: 0.85em;
+	line-height: 1.3em;
+	letter-spacing: 0.2px;
+	text-align: center;
+	padding: 5px;
 }
 @media (max-width: 460px) {
 	.social-text {
-		padding: 0px 4px;
+		font-weight: 400;
+		font-size: 0.8em;
+		padding: 0px 3px;
+	}
+	.copyright {
+			font-size: 0.8em;
 	}
 }
 

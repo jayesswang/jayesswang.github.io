@@ -8,7 +8,7 @@ MY AVATAR & RESUME LINK
 ************************************************************************************* */
 .about {
 	width: 100%;
-	padding: 0px 0px 50px;
+	padding: 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center
@@ -19,10 +19,9 @@ MY AVATAR & RESUME LINK
 	margin-bottom: 20px;
 }
 .about-heading {
-	background-color: #DC0E7D;
+	background-color: #444;
 	width: 100%;
 	padding: 40px 0px 30px;
-	margin-bottom: 40px;
 }
 .profile {
 	display: flex;
@@ -146,7 +145,7 @@ MY AVATAR & RESUME LINK
 }
 .tools-group {
 	width: 100%;
-	background-color: #DFDFDF;
+	background-color: #E8E8E8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -173,4 +172,49 @@ MY AVATAR & RESUME LINK
 	line-height: 140%;
 	letter-spacing: 0.2px;
 	text-align: center;
+}
+
+/* ************************************************************************************
+SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
+************************************************************************************* */
+.connect-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 20px 50px;
+}
+.connect-wrap {
+	max-width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.connect-heading {
+	width: 100%;
+	font-size: 150%;
+	font-weight: 600;
+}
+.connect-text {
+	font-size: 102%;
+	font-weight: 400;
+	line-height: 140%;
+	width: 100%;
+	margin: 20px 25px;
+}
+@media (max-width: 660px) {
+	.connect-block {
+		padding: 60px 20px 40px;
+	}
+	.connect-heading {
+	    width: 100%;
+	    font-size: 24px;
+	    font-weight: 600;
+	}
+	.connect-text {
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 115%;
+		width: 100%;
+		margin: 20px 25px;
+	}
 }
