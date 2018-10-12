@@ -20,27 +20,25 @@
 <!-- CSS -->
 <!--<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
-<link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="styles/main-v2.css" rel="stylesheet" type="text/css">
 <link href="styles/cs-folio.css" rel="stylesheet" type="text/css">
-<link href="styles/accordion.css" rel="stylesheet" type="text/css">
 <!-- favicon -->
 <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
 </head>
 
 <body>
-<nav>
-  <div class="nav-wrapper"> 
-		<a href="index.html" class="logo-button"><img src="images/graphics/logo-small.png" alt="navbar logo"></a>
-    <menu>
-			<!--<a href="index.html" class="menu-button"><span class="menu-text">HOME</span></a>-->
-			<a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span></a>
-			<a href="about.html" class="menu-button"><span class="menu-text">ABOUT</span></a>
-			<a href="docs/uxd-resume-js-wang.pdf" class="menu-button" target="_blank"><span class="menu-text">RESUME</span></a>
-		</menu>
-  </div>
-</nav>
-
-<!--<section class="container shadow">--><a name="navbar"></a>
+	<nav>
+		<div class="nav-wrapper"> 
+			<a href="index.html" class="logo-button"><img src="images/graphics/logo-big.png" alt="navbar logo"></a>
+			<menu>
+				<!--<a href="index.html" class="menu-button"><span class="menu-text">HOME</span></a>-->
+				<a href="index.html#projects" class="menu-button"> <span class="menu-text">PROJECTS</span></a>
+				<a href="about.html" class="menu-button"><span class="menu-text">ABOUT</span></a>
+				<a href="docs/uxd-resume-js-wang.pdf" class="menu-button" target="_blank"><span class="menu-text">RESUME</span></a>
+			</menu>
+		</div>
+	</nav>
+	<a name="navbar"></a>
 	<header>
 		<section class="spacing-div-h40px"></section>
 		<section class="folio-header">
@@ -54,12 +52,19 @@
 			</div>
 		</section>
 	</header>
+	
+<section class="container">
   <section class="article-wrap">
     <article class="case-study">
 			<div class="title">
 				<h2>CASE STUDY</h2>
 				<h1>JW PORTFOLIO</h1>
 			</div>
+			<!--
+			<div class="update">
+				<p><span>UPDATED 10/01/2018</span>: Inspired by the work of Lynn Fisher, Jen Simmons, and CSS Zen Garden; I'm currently experimenting with CSS Grid &amp; Flexbox to redesign my website. You can <a href="https://www.figma.com/file/WytZTaUDZtLferHJTrfrmf4D/folio-redesign?node-id=0%3A1" target="_blank">see my new layouts</a> in Figma. My updated code is coming soon in <a href="https://www.github.com/jayesswang" target="_blank">GitHub</a>!</p>
+			</div>
+			-->
       <div class="text-block intro">
         <h3>INTRODUCTION</h3>
         <p>If you were asked to complete the following analogy, how would you answer?</p><br>
@@ -85,6 +90,7 @@
 				</div>-->
 				</p>
       </div>
+			
       <div class="text-block insights-tech">
 				<h3>TECHNICAL INSIGHTS</h3>
 				<p>Starting with the basics, I studied in-depth how the CSS box model works; essentially, it is a box that wraps around every HTML element and consists of margins, borders, padding, and the actual content. <br>
@@ -133,7 +139,7 @@
 </pre>
 				
 				<p>If you resize your browser window and scroll down, you'll notice how the navigation bar remains visible and centered. (You get double brownie points if you also observed that the code snippets above are responsive.) <br>
-					<br>Although I cannot possibly cover all the topics I studied, as there were just too many, here are some of the major concepts I examined:</p>
+					<br>Although I'm unable to cover all the topics I studied, as there were just too many, here are some of the major concepts I examined:</p>
 				<br>
 				<div class="topics-list">
 					<ul>
@@ -169,60 +175,108 @@
 					~Susan Stuart, <a href="https://blog.prototypr.io/why-creating-a-ux-is-like-writing-often-more-than-art-288efae9523e" target="_blank">Medium</a></p>
 				</blockquote>
 				
-				<p>The more I coded, the more comfortable I became around code. Gone were the days when merely <span>*looking*</span> at an HTML or CSS document was enough to overwhelm me. (Well... maybe it still overwhelms me a little, especially JavaScript!) Interestingly, research into foreign language speakers shows there are <a href="http://www.bbc.com/future/story/20160811-the-amazing-benefits-of-being-bilingual" target="_blank">numerous benefits in bilingualism</a>, especially in how it improves a person's ability to adapt to change, feel empathy towards others, and creatively solve problems. <br>
+				<p>The more I coded, the more comfortable I became around code. Gone were the days when merely <span>*looking*</span> at an HTML or CSS document was enough to overwhelm me. (Well... maybe it still overwhelms me a little, especially JavaScript!) Interestingly, I recently read that research into foreign language speakers shows there are <a href="http://www.bbc.com/future/story/20160811-the-amazing-benefits-of-being-bilingual" target="_blank">numerous benefits in bilingualism</a>, especially in how it improves a person's ability to adapt to change, feel empathy towards others, and creatively solve problems. <br>
 				<br>
 				I experienced a similar feeling when switching between designing and coding, like a different part of my brain had been activated and an unexpected creative perspective emerged; the kind where I had the imagination and vision to see alternate approaches and results. This experience inspires me to continue seeking interesting personal projects and fun experiments in coding. <br>
 				<br>
 				With this new insight, my world as a designer has become even bigger with unbridled opportunities and greater possibilities. As they say, the sky's the limit.</p>
 			</div>
     </article>
-		<div class="spacing-div-h40px"></div>
-		<div class="bright-solid-wrap">
-			<div class="case-study">
-				<div class="text-block" id="fav-links-group">
-					<h3>FAVORITE LINKS</h3>
-					<p>I've listed some of my favorite links below, which I consulted frequently during this project for technical questions and inspiration.</p>
-				</div>
-				<div class="fav-links-wrap">
-					<div class="fav-links">
-						<h4>RESOURCES</h4>
-							<ul>
-								<li><a href="https://developer.mozilla.org" target="_blank">MOZILLA - MDN WEB DOCS</a></li>
-								<li><a href="https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/" target="_blank">SMASHING MAGAZINE</a></li>
-								<li><a href="https://css-tricks.com" target="_blank">CSS-TRICKS</a></li>
-								<li><a href="https://stackoverflow.com/tags" target="_blank">STACK OVERFLOW</a></li>
-							</ul>
-					</div>
-					<div class="fav-links">
-						<h4>CREATIVE JUICE</h4>
+	</section>
+</section>
+	
+	<div class="spacing-div-h40px"></div>
+	<section class="bright-solid-wrap">
+		<div class="case-study">
+			<div class="text-block" id="fav-links-group">
+				<h3>FAVORITE LINKS</h3>
+				<p>I've listed some of my favorite links below, which I consulted frequently during this project for technical questions and inspiration.</p>
+			</div>
+			<div class="fav-links-wrap">
+				<div class="fav-links">
+					<h4>RESOURCES</h4>
 						<ul>
-							<li><a href="https://www.behance.net/featured" target="_blank">BEHANCE</a></li>
-							<li><a href="https://abduzeedo.com/" target="_blank">ABDUZEEDO</a></li>
-							<li><a href="https://labs.jensimmons.com" target="_blank">JEN SIMMONS LAB</a></li>
-							<li><a href="http://brutalistwebsites.com/" target="_blank">BRUTALIST</a></li>
+							<li><a href="https://developer.mozilla.org" target="_blank">MOZILLA - MDN WEB DOCS</a></li>
+							<li><a href="https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/" target="_blank">SMASHING MAGAZINE</a></li>
+							<li><a href="https://css-tricks.com" target="_blank">CSS-TRICKS</a></li>
+							<li><a href="https://stackoverflow.com/tags" target="_blank">STACK OVERFLOW</a></li>
 						</ul>
-					</div>
+				</div>
+				<div class="fav-links">
+					<h4>CREATIVE JUICE</h4>
+					<ul>
+						<li><a href="https://www.behance.net/featured" target="_blank">BEHANCE</a></li>
+						<li><a href="https://abduzeedo.com/" target="_blank">ABDUZEEDO</a></li>
+						<li><a href="https://labs.jensimmons.com" target="_blank">JEN SIMMONS LAB</a></li>
+						<li><a href="http://brutalistwebsites.com/" target="_blank">BRUTALIST</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+	</section>
+	<div class="spacing-div-h40px"></div>
 
-		<section class="connect-block"><a name="contact-anchor"></a>
-			<div class="connect-wrap">
-				<h2 class="connect-heading">Wanna connect?</h2>
-				<p class="connect-text">I'd love to hear from you! To get in touch, please <a href="mailto:wang.jayess@gmail.com" >e-mail me</a> or say hello on <a href="https://www.linkedin.com/in/jayesswang/" target="_blank">LinkedIn</a> or <a href="https://www.instagram.com/jayesswang/" target="_blank">Instagram</a>. Also, please feel free to <a href="docs/uxd-resume-js-wang.pdf" target="_blank">download my resume</a>. </p>
-			</div>
-		</section>
-  </section>
-	<footer>
-		<div class="footer-bar">
-			<p class="copyright">Copyright ©2018 J.S. Wang <br>
-				Designed and developed by J.S. Wang</p>
-			<div class="social-footer-wrap"> 
-				<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> <a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> <a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> <a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a>
+	<section class="bottom-nav">
+		<h2 id="more-projects">More Projects</h2>
+		<div class="container-900px projects-springboard">
+			<a href="daily-ui.html" class="project-box black-bkgd">
+				<div class="project-wrapper">		
+					<p class="project-type">Project</p>
+					<h3 class="project-title capitalize-text bold-text">Daily UI</h3>
+					<p class="project-category">UI, Design Patterns</p>
+				</div>
+			</a>
+			<a href="cs-meme.html" class="project-box pink-bkgd">
+				<div class="project-wrapper">		
+					<p class="project-type">Case Study</p>
+					<h3 class="project-title capitalize-text bold-text">What Do You Meme?<br>
+						Mobile Game</h3>
+					<p class="project-category">UX, UI, Mobile</p>
+				</div>
+			</a>
+			
+			<a href="cs-boxly.html" class="project-box pink-bkgd">
+				<div class="project-wrapper">
+					<p class="project-type">Case Study</p>
+					<h3 class="project-title capitalize-text bold-text">Boxly</h3>
+					<p class="project-category">Visual Design, UI, UX, Desktop</p>
+				</div>
+			</a>
+			<a href="cs-folio.html" class="project-box black-bkgd">
+				<div class="project-wrapper">		
+					<p class="project-type">Project</p>
+					<h3 class="project-title capitalize-text bold-text">JW Portfolio</h3>
+					<p class="project-category">UI, Frontend</p>
+				</div>
+			</a>
+			<a href="https://jayesswang.wordpress.com" target="_blank" class="project-box black-bkgd">
+				<div class="project-wrapper">		
+					<p class="project-type">Collection</p>
+					<h3 class="project-title capitalize-text bold-text">Untitled 2013-2018</h3>
+					<p class="project-category">Photography</p>
+				</div>
+			</a>
+			<div class="project-box gray-border">
+				<div class="project-wrapper">
+					<h3 id="coming-soon">Coming Soon!</h3>
+				</div>
 			</div>
 		</div>
-	</footer>
-<!--</section> section container shadow-->
+	</section>
+	
+	<section class="footer-wrap">
+		<footer>
+				<div class="social-footer-wrap"> 
+					<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> 
+					<a href="https://www.linkedin.com/in/jayesswang" class="social-link" target="_blank"><span class="social-text">LINKEDIN</span> </a> <span>|</span> 
+					<a href="https://www.instagram.com/jayesswang" class="social-link" target="_blank"><span class="social-text">INSTAGRAM</span> </a> <span>|</span> 
+					<a href="https://www.github.com/jayesswang" class="social-link" target="_blank"> <span class="social-text">GITHUB</span> </a>
+				</div>
+				<p class="copyright">Copyright ©2018 J.S. Wang <br>
+					Designed and developed by J.S. Wang</p>
+		</footer>
+	</section>
+
 </body>
 </html>
 
