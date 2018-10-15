@@ -31,8 +31,14 @@ SECTION - GENERAL SETTINGS
 .container-600px p {
 	
 }
-.img-height {
+.img-height-70vh {
 	max-height: 70vh;
+}
+.img-height-60vh {
+	max-height: 60vh;
+}
+.img-height-50vh {
+	max-height: 50vh;
 }
 .img-height-480px {
 	max-height: 480px;
