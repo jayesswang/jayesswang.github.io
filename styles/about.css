@@ -143,6 +143,7 @@ MY AVATAR & RESUME LINK
 		max-width: 60%;
 	}
 }
+
 .tools-group {
 	width: 100%;
 	background-color: #E8E8E8;
@@ -157,21 +158,47 @@ MY AVATAR & RESUME LINK
 	max-width: 560px;
 	width: 100%;
 	padding: 0px 15px;
-	margin-bottom:40px;
+	margin-bottom: 10px;
 }
 .tools-wrap h3 {
 	color: #383838;
 	text-decoration: underline;
-	margin-bottom: 2px;
+	margin-bottom: 10px;
 }
 .tools-text {
 	font-family: 'Open Sans', sans-serif;
 	color: #383838;
-	font-size: 102%;
+	font-size: 1.02em;
 	font-weight: 400;
-	line-height: 140%;
+	line-height: 1.5em;
 	letter-spacing: 0.2px;
 	text-align: center;
+}
+.process-skills {
+	color: 383838;
+	display: flex;
+	margin: 0px 5px 30px 5px;
+}
+.one-third {
+	width: 33.33%;
+	padding: 0px;
+	margin: 15px 0px 0px;
+}
+.one-third h4 {
+	margin-bottom: 15px;
+}
+.process-skills ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	line-height: 0.8em;
+	letter-spacing: 0.2px;
+}
+.process-skills li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #383838;
 }
 
 /* ************************************************************************************
@@ -217,4 +244,8 @@ SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
 		width: 100%;
 		margin: 20px 25px;
 	}
+}
+
+.philosophy {
+	text-align: center;
 }

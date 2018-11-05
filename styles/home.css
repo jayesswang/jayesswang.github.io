@@ -33,7 +33,7 @@ header {
 	padding: 0px 12px 25px;
 }
 .header-intro {
-	max-width: 660px;
+	max-width: 580px;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.1em;
@@ -111,14 +111,14 @@ PROJECTS - TITLES & PROJECT DESCRIPTIONS
 }
 .project-name {
 	font-size: 1.65em;
-	font-weight: 600;
+	font-weight: 700;
 	color: #FFF;
 	text-transform: uppercase;
 	letter-spacing: 5%;
 }
 .project-brief {
 	color: #FFF;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 0.93em;
 	letter-spacing: 0.1px;
 }
