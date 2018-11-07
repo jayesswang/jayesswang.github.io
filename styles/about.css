@@ -247,5 +247,7 @@ SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
 }
 
 .philosophy {
+	max-width: 520px;
 	text-align: center;
+	padding: 0px 10px;
 }
