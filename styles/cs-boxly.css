@@ -13,7 +13,8 @@
 	align-items: center;
 }
 .logo-wrap {
-	
+	max-width: 280px;
+	padding: 10px;
 }
 .title h2 {
 	text-decoration: underline;
@@ -207,7 +208,7 @@ SECTION - USER FLOWS, WIREFRAMES, TESTING, MOCKUPS
 ************************************************************************* */
 .light-solid-wrap {
 	width: 100%;
-	background-color: #CCECEE;
+	background-color: #C8E6EF;
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
