@@ -263,3 +263,13 @@ SECTION - USER FLOWS, WIREFRAMES, TESTING, MOCKUPS
 	width: 88%;
 	margin: auto;
 }
+@media (max-width: 600px) {
+		.wireframes {
+		height: 500px;
+	}
+}
+@media (max-width: 400px) {
+		.wireframes {
+		height: 360px;
+	}
+}
