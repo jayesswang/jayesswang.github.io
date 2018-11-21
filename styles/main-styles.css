@@ -1,0 +1,427 @@
+@charset "UTF-8";
+/* =====================================================================================
+**** !!! CSS DOCUMENT !!! **** 
+===================================================================================== */
+
+/* =====================================================================================
+GENERAL SETTINGS 
+===================================================================================== */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#body-top-spacer-50px {
+	padding-top: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	text-align: left;
+	letter-spacing: -0.02em;
+	margin: 0px;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: 600;
+}
+h3 {
+	
+}
+h4 {
+	
+}
+section {
+	/*width: 100%;*/
+}
+article {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 1.4em;
+	color: #222;
+}
+.superscript {
+	vertical-align: super;
+	font-size: .43em;
+	font-weight: 600;
+}
+li {
+	font-family: 'Poppins', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	color: #222;
+	padding: 5px 0px;
+}
+q {
+	font-family: 'Poppins', sans-serif;
+	font-style: italic;
+	color: #222;
+}
+a {
+	font-family: 'Poppins', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+}
+a:link {
+	color: #E00B7C;
+}
+a:visited {
+	color: #850743;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* =====================================================================================
+SECTION - NAVBAR
+===================================================================================== */
+nav {
+	height: 50px;
+	width: 100vw;
+	background-color: #FFF;
+	opacity: 0.97;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+	border: thin solid #EEEEEE;
+	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
+	box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
+}
+.nav-wrapper {
+	width: 100%;
+	min-width: 200px;
+	padding: 0em 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo-button {
+	width: 65px;
+	height: 50px;
+	margin-left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: none;
+}
+
+/* =====================================================================================
+SECTION - MENU BAR 
+===================================================================================== */
+menu {
+	padding-right: 0px;
+}
+.menu-button {
+	height: 50px;
+	padding: 2px 12px 0px;
+	display: inline-flex;
+  align-items: center;
+}
+.menu-button:link {
+		text-decoration: none;
+}
+.menu-text {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 0.98em;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #E40281;
+}
+@media (max-width: 640px) {
+	.menu-button {
+		padding: 3px 5px 0px;
+	}
+	.menu-text {
+	font-size: 0.92em;
+	}
+}
+/* =====================================================================================
+CONTENT LAYOUT 
+===================================================================================== */
+.vflex-top-left {
+	display: flex;
+	flex-direction: column;
+}
+.vflex-top-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.vflex-top-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+.vflex-center-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.vflex-center-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.hflex {
+	display: flex;
+}
+.separator {
+	height: 1px;
+	width: 35vw;
+	background-color: #666;
+}
+.spacer-h20px {
+	width: 100%;
+	height: 20px;
+}
+.spacer-h30px {
+	width: 100%;
+	height: 30px;
+}
+.spacer-h40px {
+	width: 100%;
+	height: 40px;
+}
+.spacer-h60px {
+	width: 100%;
+	height: 40px;
+}
+.spacer-h80px {
+	width: 100%;
+	height: 40px;
+}
+@media (max-width: 1080px) {
+
+}
+/* =====================================================================================
+CONTENT BUTTON 
+===================================================================================== */
+.btn-link {
+	width: 190px;
+	height: 40px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-top: 2px;
+	border: solid #383838;
+	text-decoration: none;
+}
+.btn-text {
+	font-family: inherit;
+	font-weight: 700;
+	color: #383838;
+}
+/* =====================================================================================
+SECTION - MORE PROJECTS - SPRINGBOARD 
+===================================================================================== */
+.bottom-nav {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#more-projects {
+	width: 100%;
+	font-size: 1.4em;
+	padding: 30px 10px;
+	text-transform: uppercase;
+}
+.projects-springboard {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.projects-springboard a {
+	text-decoration: none;
+}
+.projects-springboard a:hover {
+	background-color: #3A3A3A;
+}
+.project-box {
+	height: 160px;
+	width: 100%;
+	max-width: 280px;
+	min-width: 250px;
+	margin: 10px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.30);
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.30);
+}
+#coming-soon {
+	max-width: 150px;
+	height: 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0px 8px;
+	display: flex;
+	align-items: center;
+}
+.gray-border {
+	border: thin solid #E0E0E0;
+}
+.pink-bkgd {
+	background-color: #D10578;
+}
+.drk-gray-bkgd {
+	background-color: #555;
+}
+.black-bkgd {
+	background-color: #000;
+}
+.capitalize-text {
+	text-transform: uppercase;
+}
+.project-wrapper {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project-type {
+	color: white;
+	text-align: center;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding: 8px 0px 10px;
+}
+.project-title {
+	font-size: 1.35em;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	margin: 5px 15px;
+}
+.project-category {
+	color: white;
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: 300;
+	padding: 10px 0px 8px;
+}
+.title-category {
+	text-decoration: underline;
+}
+/* =====================================================================================
+SECTION - CONTACT ME (LINKS ONLY, NO CONTACT FORM)
+===================================================================================== */
+.connect-block {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 20px 50px;
+}
+.connect-wrap {
+	max-width: 440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.connect-heading {
+	width: 100%;
+	font-size: 150%;
+	font-weight: 600;
+}
+.connect-text {
+	font-size: 102%;
+	font-weight: 400;
+	line-height: 140%;
+	width: 100%;
+	margin: 20px 25px;
+}
+@media (max-width: 660px) {
+	.connect-block {
+		padding: 60px 20px 40px;
+	}
+	.connect-heading {
+	    font-size: 24px;
+	    font-weight: 600;
+	}
+	.connect-text {
+		font-size: 17px;
+		line-height: 115%;
+	}
+}
+/* =====================================================================================
+FOOTER - SOCIAL MEDIA & COPYRIGHT INFO
+===================================================================================== */
+.footer-wrap {
+	width: 100%;
+}
+footer {
+	font-family: inherit;
+	color: #222;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.social-footer-wrap {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+.social-link {
+	padding: 0px;
+	display: inline-flex;
+  align-items: center;
+	text-decoration: none;
+}
+.social-text {
+	color: #222;
+	font-weight: 400;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	letter-spacing: 0.1px;
+	padding: 0px 6.5px;
+	text-decoration: underline;
+}
+.copyright {
+	width: 100%;
+	font-weight: 400;
+	font-size: 0.85em;
+	line-height: 1.3em;
+	letter-spacing: 0.2px;
+	text-align: center;
+	padding: 10px;
+}
+@media (min-width: 640px) {
+	.social-text {
+		font-weight: 400;
+		font-size: 0.84em;
+		padding: 0px 8px;
+	}
+	.copyright {
+			font-size: 0.82em;
+	}
+}
