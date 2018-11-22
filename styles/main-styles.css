@@ -14,6 +14,7 @@ GENERAL SETTINGS
 body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
+	color: #222;
 	background-color: #FFF;
 	display: flex;
 	flex-direction: column;
@@ -106,7 +107,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 	z-index: 2;
-	border: thin solid #EEEEEE;
+	border: thin solid #EEE;
 	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
 	box-shadow: 0px 1px 7px rgba(0,0,0,0.20);
 }
@@ -240,13 +241,13 @@ CONTENT BUTTON
   justify-content: center;
   align-items: center;
 	padding-top: 2px;
-	border: solid #383838;
+	border: solid #222;
 	text-decoration: none;
 }
 .btn-text {
 	font-family: inherit;
 	font-weight: 700;
-	color: #383838;
+	color: #222;
 }
 /* =====================================================================================
 SECTION - MORE PROJECTS - SPRINGBOARD 
@@ -290,7 +291,7 @@ SECTION - MORE PROJECTS - SPRINGBOARD
 	box-shadow: 0px 2px 6px rgba(0,0,0,0.30);
 }
 #coming-soon {
-	max-width: 150px;
+	max-width: 180px;
 	height: 100%;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -299,7 +300,8 @@ SECTION - MORE PROJECTS - SPRINGBOARD
 	align-items: center;
 }
 .gray-border {
-	border: thin solid #E0E0E0;background-color: #FFF;
+	border: thin solid #E0E0E0;
+	background-color: #FFF;
 }
 .pink-bkgd {
 	background-color: #D10578;

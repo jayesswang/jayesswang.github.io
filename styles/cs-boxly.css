@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 .boxly-header {
 	height: 320px;
 	background-image: url(../images/cs-boxly/boxly-hero-img-v1.png);
@@ -32,8 +31,6 @@
 .article-block h3 {
 	padding-bottom: 8px;
 }
-
-
 /* *********************************************************************************
 SECTION - ABOUT THIS PROJECT
 ********************************************************************************** */
@@ -56,13 +53,13 @@ SECTION - ABOUT THIS PROJECT
   justify-content: center;
   align-items: center;
 	padding-top: 1px;
-	border: solid #383838;
+	border: solid #222;
 	text-decoration: none;
 }
 .button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	color: #383838;
+	color: #222;
 }
 
 /* *********************************************************************************
@@ -82,7 +79,7 @@ SECTION - USER RESEARCH, USER HABITS
 .data-row-group {
 	max-width: 390px;
 	min-width: 220px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -98,13 +95,13 @@ SECTION - USER RESEARCH, USER HABITS
 .data-row span {
 	width: 20%;
 	text-align: right;
-	color: #383838;
+	color: #222;
 	font-weight: 700;
 	font-size: 200%;
 }
 .data-row p {
 	width: 80%;
-	color: #383838;
+	color: #222;
 	padding: 0px 5px 0px 20px;
 }
 .data-footnote {
@@ -201,8 +198,6 @@ SECTION - PERSONAS
 		text-align: center;
 	}
 }
-
-
 /* ************************************************************************
 SECTION - USER FLOWS, WIREFRAMES, TESTING, MOCKUPS
 ************************************************************************* */
@@ -219,7 +214,7 @@ SECTION - USER FLOWS, WIREFRAMES, TESTING, MOCKUPS
 	padding: 0px;
 }
 .screenshots-wrap h2 {
-	color: #383838;
+	color: #222;
 	margin: 40px 0px 30px;
 }
 .screenshots-group {
