@@ -16,10 +16,11 @@
 <meta name="description" content="Welcome to the portfolio of J.S. Wang, UX designer. A creative storyteller, visual strategist, and empathetic advocate of user-centered experiences. Check out my latest projects and drop me a line to say hello.">
 <title>JAYESS WANG PORTFOLIO</title>
 <!-- google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Work+Sans:300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700" rel="stylesheet">
 <!-- CSS -->
 <!--<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">-->
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="styles/main-styles.css" rel="stylesheet" type="text/css">
 <link href="styles/main-v2.css" rel="stylesheet" type="text/css">
 <link href="styles/cs-folio.css" rel="stylesheet" type="text/css">
 <!-- favicon -->
@@ -39,7 +40,7 @@
 		</nav>
 	<a name="navbar"></a>
 	<header>
-		<section class="spacing-div-h40px"></section>
+		<section class="spacer-h50px"></section>
 		<section class="folio-header">
 			<div class="folio-header-text-wrap">
 				<p class="folio-header-text"> &lt;HTML&gt;<br>
@@ -51,8 +52,7 @@
 			</div>
 		</section>
 	</header>
-	
-<section class="container">
+
   <section class="article-wrap">
     <article class="case-study">
 			<div class="title">
@@ -64,16 +64,16 @@
 				<p><span>UPDATED 10/01/2018</span>: Inspired by the work of Lynn Fisher, Jen Simmons, and CSS Zen Garden; I'm currently experimenting with CSS Grid &amp; Flexbox to redesign my website. You can <a href="https://www.figma.com/file/WytZTaUDZtLferHJTrfrmf4D/folio-redesign?node-id=0%3A1" target="_blank">see my new layouts</a> in Figma. My updated code is coming soon in <a href="https://www.github.com/jayesswang" target="_blank">GitHub</a>!</p>
 			</div>
 			-->
-      <div class="text-block intro">
+      <div class="text-block">
         <h3>INTRODUCTION</h3>
         <p>If you were asked to complete the following analogy, how would you answer?</p><br>
         <blockquote id="analogy">
           <p>Architect is to engineer,<br>
-            as web designer is to ________________________.</p>
+            as web designer is to ___________.</p>
         </blockquote>
         <p>If you responded with "web developer" (or anything similar), then you understand that these pairings describe the relationship between one who creates a blueprint and one who transforms that blueprint into a tangible final product. </p>
       </div>
-      <div class="text-block inspo">
+      <div class="text-block">
         <h3>ABOUT THIS PROJECT</h3>
         <p>Recently, I discovered a <a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ" target="_blank">series of YouTube videos</a> by Google Chrome Developers titled, “<a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIC60856GnLEV5GQXMxc9ByJ" target="_blank">Designers vs. Developers</a>.” In each episode, the hosts discuss common industry pain points by opening a conversation between the two sides, providing takeaways, solutions to workflows, tools, and discussions on everyday struggles. <br>
 				<br>	
@@ -90,7 +90,7 @@
 				</p>
       </div>
 			
-      <div class="text-block insights-tech">
+      <div class="text-block">
 				<h3>TECHNICAL INSIGHTS</h3>
 				<p>Starting with the basics, I studied in-depth how the CSS box model works; essentially, it is a box that wraps around every HTML element and consists of margins, borders, padding, and the actual content. <br>
 				<br>
@@ -116,23 +116,23 @@
 				
 <pre>
 <code>.nav {
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
 }
 .nav-wrapper {
-  max-width: 1280px;
-  width: 100%;
-  background-color: #303030;
-  opacity: 0.97;
-  display: flex;
-  justify-content: space-between;
+	max-width: 1280px;
+	width: 100%;
+	background-color: #303030;
+	opacity: 0.97;
+	display: flex;
+	justify-content: space-between;
 }
 </code>
 </pre>
@@ -182,10 +182,7 @@
 			</div>
     </article>
 	</section>
-</section>
-	
-	<div class="spacing-div-h40px"></div>
-	<section class="bright-solid-wrap">
+	<section class="solid-wrap">
 		<div class="case-study">
 			<div class="text-block" id="fav-links-group">
 				<h3>FAVORITE LINKS</h3>
@@ -213,45 +210,44 @@
 			</div>
 		</div>
 	</section>
-	<div class="spacing-div-h40px"></div>
+
 	<section class="bottom-nav">
 		<h2 id="more-projects">More Projects</h2>
 		<div class="container-900px projects-springboard">
+			<a href="cs-boxly.html" class="project-box pink-bkgd">
+				<div class="project-wrapper">
+					<p class="project-type">Case Study</p>
+					<h3 class="project-title capitalize-text bold-text">Boxly</h3>
+					<p class="project-category">Visual Design • UI/UX • Desktop</p>
+				</div>
+			</a>
 			<a href="cs-meme.html" class="project-box pink-bkgd">
 				<div class="project-wrapper">		
 					<p class="project-type">Case Study</p>
 					<h3 class="project-title capitalize-text bold-text">What Do You Meme?<br>
 						Mobile Game</h3>
-					<p class="project-category">UX, UI, Mobile</p>
-				</div>
-			</a>
-			
-			<a href="cs-boxly.html" class="project-box pink-bkgd">
-				<div class="project-wrapper">
-					<p class="project-type">Case Study</p>
-					<h3 class="project-title capitalize-text bold-text">Boxly</h3>
-					<p class="project-category">Visual Design, UI, UX, Desktop</p>
+					<p class="project-category">UX/UI • Mobile</p>
 				</div>
 			</a>
 			<a href="cs-folio.html" class="project-box black-bkgd">
 				<div class="project-wrapper">		
 					<p class="project-type">Project</p>
 					<h3 class="project-title capitalize-text bold-text">JW Portfolio</h3>
-					<p class="project-category">UI, Frontend</p>
+					<p class="project-category">Responsive Design • Frontend</p>
 				</div>
 			</a>
 			<a href="daily-ui.html" class="project-box black-bkgd">
 				<div class="project-wrapper">		
 					<p class="project-type">Project</p>
 					<h3 class="project-title capitalize-text bold-text">Daily UI</h3>
-					<p class="project-category">UI, Design Patterns, Psychology</p>
+					<p class="project-category">Design Patterns • Psychology</p>
 				</div>
 			</a>
 			<a href="https://jayesswang.wordpress.com" target="_blank" class="project-box black-bkgd">
 				<div class="project-wrapper">		
 					<p class="project-type">Collection</p>
 					<h3 class="project-title capitalize-text bold-text">Untitled 2013-2018</h3>
-					<p class="project-category">Photography</p>
+					<p class="project-category">Fashion Photography</p>
 				</div>
 			</a>
 			<div class="project-box gray-border">
@@ -261,8 +257,17 @@
 			</div>
 		</div>
 	</section>
-	
 	<section class="footer-wrap">
+		<!--<section class="tab">
+			<input id="tab-one" type="checkbox" name="tabs">
+			<label for="tab-one">MORE PROJECTS <span>&#x25BC;</span></label>
+			<div class="down-triangle"></div>	  	  
+			<div class="tab-content">
+			<a href="cs-meme.html">WHAT DO YOU MEME?</a>
+			<a href="cs-boxly.html">BOXLY</a>
+			<a href="cs-folio.html">JW PORTFOLIO</a>
+			</div>
+		</section>-->
 		<footer>
 				<div class="social-footer-wrap"> 
 					<a href="mailto:wang.jayesswang.com" class="social-link" target="_blank"><span class="social-text">EMAIL</span> </a> <span>|</span> 

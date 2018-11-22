@@ -7,7 +7,7 @@ SECTION - HEADER (JW-FOLIO)
 ************************************************************************************* */
 header {
 	width: 100%;
-	background-color: #FFED4B;
+	background-color: #C5F0FE;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -15,6 +15,7 @@ header {
 .folio-header {
 	max-width: 1000px;
 	width: 100%;
+	padding: 20px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -63,16 +64,27 @@ header {
 SECTION - ARTICLE (JW-FOLIO)
 ************************************************************************************* */
 .article-wrap {
+	max-width: 1200px;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .case-study {
-	max-width: 800px;
+	max-width: 640px;
 	min-width: 240px;
 	margin: 0px 5%;
 }
 .text-block {
 	padding: 18px 0px;
 	margin: 0px 3%;
+}
+blockquote {
+	max-width: 460px;
+  background: #F7F7F7;
+  border-left: 10px solid #FF0090;
+  margin: 10px auto 30px;
+  padding: 0.5em 15px;
 }
 .text-block h2 {
 	padding-bottom: 12px;
@@ -83,13 +95,7 @@ SECTION - ARTICLE (JW-FOLIO)
 p {
 	line-height: 140%;
 }
-.article-quote {
-  max-width: 500px;
-  background: #F7F7F7;
-  border-left: 10px solid #FF0090;
-  margin: 10px auto 30px;
-  padding: 0.5em 15px;
-}
+
 .article-quote span {
 	font-style: italic;	
 }
@@ -125,14 +131,6 @@ CASE STUDY TITLE SETTINGS
 /* *********************************************************************************
 SECTION - INTRODUCTION
 ********************************************************************************** */
-#analogy {
-  max-width: 390px;
-  background: #F7F7F7;
-  border-left: 10px solid #FF0090;
-  margin: 10px auto 30px;
-  padding: 0.5em 15px;
-  /*quotes: "\201C""\201D""\2018""\2019";*/
-}
 /*#analogy:before {
   color: #BBB;
   content: open-quote;
@@ -166,13 +164,12 @@ pre code {
 .topics-list code {
 	color: crimson;
 }
-.bright-solid-wrap {
+.solid-wrap {
 	width: 100%;
-	background-color: #FFED4B;
 	background-position: 0% 0%;
 	display: flex;
 	justify-content: center;
-	padding: 30px 10px;
+	padding: 40px 10px 60px;
 }
 @media (max-width: 460px) {
 	pre code {
