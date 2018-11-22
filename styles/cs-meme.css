@@ -5,7 +5,7 @@
 /* GENERAL SETTINGS for MEME CASE STUDY
 ************************************************************************* */
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	color: #383838;
 	line-height: 140%;
@@ -109,7 +109,7 @@ SECTION - ABOUT THIS PROJECT
 	text-decoration: none;
 }
 .button-text {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	color: #383838;
 }
@@ -197,7 +197,7 @@ SECTION - MY DESIGN PROCESS
 	letter-spacing: 0.2px;
 }
 .process-skills li {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	color: #FFF;
 }
@@ -209,7 +209,7 @@ SECTION - MY DESIGN PROCESS
 }
 .role-n-tools span {
 	width: 95%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	color: #FFF;
 	text-align: center;
@@ -318,7 +318,7 @@ SECTION - USER SURVEY RESULTS
 .data-row-group {
 	max-width: 390px;
 	min-width: 220px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -408,7 +408,7 @@ SECTION - COMPETITIVE ANALYSIS (TABLETOP VS MOBILE)
 }
 
 .analysis-chart {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	list-style-position: inside;
 }
 
@@ -446,7 +446,7 @@ SECTION - COMPETITIVE ANALYSIS (TABLETOP VS MOBILE)
 	}
 	
 	.analysis-chart {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		list-style-position: inside;
 		margin-bottom: 40px;
 	}
@@ -661,16 +661,12 @@ SECTION - TESTING
 .testing {
 	margin-bottom: 40px;
 }
-
 .testing h2 {
 	margin-bottom: 10px;
 }
-
 .game-evolution {
 	padding-bottom: 20px;
 }
-
-
 /* ************************************************************************
 SECTION - RAPID PROTOTYPING 
 ************************************************************************* */
@@ -680,14 +676,9 @@ SECTION - RAPID PROTOTYPING
 	flex-direction: column;
 	align-items: center;
 }
-
 .prototyping h3 {
 	margin-bottom: 20px;
 }
-
-
-
-
 .conclusion {
 	padding: 40px 10px 10px;
 }

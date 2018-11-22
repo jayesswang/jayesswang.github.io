@@ -50,9 +50,8 @@ GENERAL CONTENT LAYOUT
 .spacing-div-h20px {
 	height: 20px;
 }
-
 .case-study {
-	max-width: 660px;
+	max-width: 600px;
 	min-width: 200px;
 	margin: 0px 5%;
 }
