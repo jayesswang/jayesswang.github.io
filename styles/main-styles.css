@@ -250,6 +250,23 @@ CONTENT BUTTON
 	color: #222;
 }
 /* =====================================================================================
+SECTION - TWITTER FEED BY CURATOR.IO 
+===================================================================================== */
+.curator-wrap {
+	width: 100vw;
+	background-color: #FDE6E6;
+	padding: 50px 20px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#curator-feed {
+	max-width: 1000px;
+	min-width: 200px;
+	width: 100%;
+}
+/* =====================================================================================
 SECTION - MORE PROJECTS - SPRINGBOARD 
 ===================================================================================== */
 .bottom-nav {
@@ -445,3 +462,4 @@ footer {
 			font-size: 0.82em;
 	}
 }
+
