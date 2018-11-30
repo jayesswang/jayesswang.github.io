@@ -117,6 +117,24 @@ CASE STUDY TITLE SETTINGS
 	justify-content: center;
 	align-items: center;
 }
+.layouts-link {
+	text-decoration: none;
+}
+.layouts-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.layout-img {
+	max-width: 620px;
+	min-width: 220px;
+	width: 100%;
+	margin: 5px;
+}
+#mobile-home {
+	width: 160px;
+}
 .update span {
 	text-decoration: underline;
 }
