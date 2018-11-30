@@ -15,17 +15,15 @@ header {
 .folio-header {
 	max-width: 1000px;
 	width: 100%;
-	padding: 30px 0px;
+	padding: 20px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 .folio-header-text-wrap {
 	align-self: flex-start;
 	margin: 20px 0px 0px 20px;
 }
-
 .folio-header-text {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
@@ -34,21 +32,17 @@ header {
 	line-height: 102%;
 	text-align: left;
 }
-
 .folio-header-text-pink {
 	color: #FF0090;
 	padding-left: 0.6em;
 }
-
 .folio-header-octocat {
 	align-self: flex-end;
 }
-
 .octocat-wrap {
 	width: 240px;
 	margin: 10px 15px 5px 0px;
 }
-
 @media (max-width: 460px) {
 	.folio-header-text {
 		font-size: 32px;
@@ -58,8 +52,6 @@ header {
 		width: 200px;
 	}
 }
-
-
 
 /* ************************************************************************************
 SECTION - ARTICLE (JW-FOLIO)
@@ -137,6 +129,7 @@ CASE STUDY TITLE SETTINGS
 }
 .update span {
 	text-decoration: underline;
+	font-weight: 700;
 }
 .update p {
 	font-style: italic;
@@ -146,7 +139,9 @@ CASE STUDY TITLE SETTINGS
 	margin: 20px 10px 40px;
 	border: medium solid;
 }
-
+#separator-folio-intro {
+	padding: 75px 0px 90px;
+}
 /* *********************************************************************************
 SECTION - INTRODUCTION
 ********************************************************************************** */
