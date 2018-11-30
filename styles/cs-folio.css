@@ -15,7 +15,7 @@ header {
 .folio-header {
 	max-width: 1000px;
 	width: 100%;
-	padding: 20px 0px;
+	padding: 30px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

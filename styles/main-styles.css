@@ -192,9 +192,11 @@ CONTENT LAYOUT
 	display: flex;
 }
 .separator {
-	height: 1px;
-	width: 35vw;
-	background-color: #666;
+	height: 2px;
+	width: 50vw;
+	max-width: 400px;
+	background-color: #D8D8D8;
+	margin: 0px auto;
 }
 .spacer-h20px {
 	width: 100%;
@@ -216,7 +218,7 @@ CONTENT LAYOUT
 	width: 100%;
 	height: 60px;
 }
-.spacer-h60px {
+.spacer-h70px {
 	width: 100%;
 	height: 70px;
 }
