@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* =====================================================================================
+**** !!! CSS DOCUMENT !!! ****
+===================================================================================== */
+
+/* =====================================================================================
+GENERAL SETTINGS
+===================================================================================== */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	line-height: 1.3em;
+	color: #000;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit, sans-serif;
+	text-align: left;
+	letter-spacing: -0.02em;
+	padding: 6px 0px;
+}
+h1 {
+	font-size: 1.9em;
+	font-weight: 600;
+	margin: 40px 0px 30px;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: 500;
+	margin: 40px 0px 30px;
+}
+h3 {
+	font-size: 1.38em;
+	font-weight: 500;
+	margin: 40px 0px 10px;
+}
+h4 {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin: 40px 0px 6px;
+}
+main {
+	width: 100%;
+	padding: 20px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.highlights {
+	width: 100%;
+	max-width: 580px;
+}
+.simple-menu {
+	font-size: 0.9em;
+}
+.highlights h1 {
+	border-bottom: thin solid #CCC;
+}
+p {
+	font-family: inherit, sans-serif;
+}
+.superscript {
+	vertical-align: super;
+	font-size: .43em;
+	font-weight: 600;
+}
+ol {
+	padding-left: 1.2em;
+}
+ul {
+	padding-left: 1.2em;
+}
+li {
+	font-family: inherit, sans-serif;
+	padding: 5px 0px;
+}
+.quote {
+	max-width: 470px;
+  background: #F7F7F7;
+  margin: 30px auto;
+  padding: 0.6em 15px;
+}
+.quote span {
+	font-style: italic;
+}
+a {
+	font-family: inherit, sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+}
+a:link {
+	color: #E00B7C;
+}
+a:visited {
+	color: #850743;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.separator {
+	height: 2px;
+	width: 50vw;
+	max-width: 400px;
+	background-color: #E8E8E8;
+	margin: 0px auto;
+}
+.spacer-h20px {
+	width: 100%;
+	height: 20px;
+}
+.spacer-h30px {
+	width: 100%;
+	height: 30px;
+}
+.spacer-h40px {
+	width: 100%;
+	height: 40px;
+}
+.spacer-h50px {
+	width: 100%;
+	height: 50px;
+}
+.spacer-h60px {
+	width: 100%;
+	height: 60px;
+}
+.spacer-h70px {
+	width: 100%;
+	height: 70px;
+}
+.spacer-h80px {
+	width: 100%;
+	height: 80px;
+}
+.spacer-h100px {
+	width: 100%;
+	height: 100px;
+}
+@media (max-width: 1080px) {
+
+}
+/* =====================================================================================
+CONTENT BUTTON
+===================================================================================== */
+.btn-link {
+	width: 190px;
+	height: 40px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-top: 2px;
+	border: solid #222;
+	text-decoration: none;
+}
+.btn-text {
+	font-family: inherit;
+	font-weight: 700;
+	color: #222;
+}
