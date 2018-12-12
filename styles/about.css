@@ -80,7 +80,7 @@ MY AVATAR & RESUME LINK
 	text-decoration: none;
 }
 .resume-button-text {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	font-weight: 700;
 	color: #FFF;
@@ -93,7 +93,7 @@ MY AVATAR & RESUME LINK
 .bio {
 	max-width: 600px;
 	width: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #404040;
 	font-size: 103%;
 	letter-spacing: 0.1px;
@@ -109,6 +109,9 @@ MY AVATAR & RESUME LINK
 	-webkit-column-rule: 1px solid #ddd;
 	-moz-column-rule: 1px solid #ddd;
 	column-rule: 1px solid #ddd;*/
+}
+.bio-wrap h3 {
+	text-decoration: underline;
 }
 .calvin-hobbes {
 	padding: 24px 0px;
@@ -143,7 +146,6 @@ MY AVATAR & RESUME LINK
 		max-width: 60%;
 	}
 }
-
 .tools-group {
 	width: 100%;
 	background-color: #FFF;
@@ -165,7 +167,7 @@ MY AVATAR & RESUME LINK
 	margin-bottom: 10px;
 }
 .tools-text {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #383838;
 	font-size: 1.02em;
 	font-weight: 400;
@@ -195,7 +197,7 @@ MY AVATAR & RESUME LINK
 	letter-spacing: 0.2px;
 }
 .process-skills li {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	color: #383838;
 }
