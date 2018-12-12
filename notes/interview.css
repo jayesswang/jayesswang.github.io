@@ -40,7 +40,7 @@ h2 {
 	margin: 40px 0px 25px;
 }
 h3 {
-	font-size: 1.33em;
+	font-size: 1.4em;
 	font-weight: 500;
 	margin: 35px 0px 4px;
 }
@@ -105,6 +105,12 @@ a:link {
 }
 a:visited {
 	color: #850743;
+}
+.back-top {
+	text-decoration: none;;
+	display: flex;
+	justify-content: center;
+	padding: 50px 0px 10px;
 }
 img {
   max-width: 100%;
